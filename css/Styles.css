@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(To top, #010101, #999da0);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    background-color: #010101;
+    margin-top: 0;
+    border-bottom: #999da0;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.navbar-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+
+
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #f2e80d;
+    font-family: Anton;
+    font-weight: 400;
+    font-size: 35px;
+    box-shadow: 0 0 15px 0 #f2e80d ;
+
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #999da0;
+    font-family: Anton;
+    font-weight: 400;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    margin-left: 40px;
+}
+
+
+ul li a {
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #999da0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+ul li a:hover {
+    color: yellow;
+    text-decoration: overline underline;
+}
+
+.Banner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    background-color: #010101;
+}
+
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.inicio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    align-items: start;
+
+}
+
+p {
+    color: #999da0;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+video {
+
+    max-width: 100%;
+    height: 540px;
+}
+
+#titulo-introductorio {
+    font-family: anton;
+    color: #f2e80d;
+}
+
+.inicio-content a{
+    color: #010101;
+    margin-left: 18em;
+  
+    font-family:Montserrat ;
+    box-shadow: 0 0 15px 0 #f2e80d ;
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #f2e80d;
+
+}
