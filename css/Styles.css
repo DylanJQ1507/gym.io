@@ -1,10 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    
     background: linear-gradient(To top, #010101, #999da0);
     background-attachment: fixed;
     background-size: 100% 100%;
-}
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+} 
 
 header {
     background-color: #010101;
@@ -12,7 +16,10 @@ header {
     border-bottom: #999da0;
     border-style: solid;
     border-radius: 4px;
+    
+   
 }
+
 
 .navbar-container {
     display: flex;
@@ -37,7 +44,7 @@ h1 {
     font-family: Anton;
     font-weight: 400;
     font-size: 35px;
-    box-shadow: 0 0 15px 0 #f2e80d ;
+    box-shadow: 0 0 15px 0 #f2e80d;
 
 }
 
@@ -87,7 +94,7 @@ ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-
+justify-content: space-around;
     align-items: start;
 
 }
@@ -103,19 +110,23 @@ video {
 
     max-width: 100%;
     height: 540px;
+   
 }
 
 #titulo-introductorio {
     font-family: anton;
     color: #f2e80d;
 }
-
-.inicio-content a{
+.inicio-content{
+    text-align: justify;
+    justify-items: center;
+}
+.inicio-content a {
     color: #010101;
-    margin-left: 18em;
-  
-    font-family:Montserrat ;
-    box-shadow: 0 0 15px 0 #f2e80d ;
+    
+
+    font-family: Montserrat;
+    box-shadow: 0 0 15px 0 #f2e80d;
     border-radius: 7px;
     font-size: 30px;
     font-weight: 600;
