@@ -137,7 +137,14 @@ video {
     width: 95%;
     margin:auto;
     overflow: hidden;
+   
+   
+    background-color: #f2e80d;
     
+}
+.carrusel{
+    background-color: #f2e80e;
+    box-shadow: 0 0 15px 0 #f2e80d;
 }
 .Imagenes-container ul{
     display: flex;
@@ -149,7 +156,9 @@ video {
 .Imagenes-container li{
     list-style: none;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Imagenes-container img{
     width: 50%;
