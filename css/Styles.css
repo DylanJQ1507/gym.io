@@ -123,8 +123,6 @@ video {
 }
 .inicio-content a {
     color: #010101;
-    
-
     font-family: Montserrat;
     box-shadow: 0 0 15px 0 #f2e80d;
     border-radius: 7px;
@@ -133,6 +131,9 @@ video {
     background-color: #f2e80d;
 
 }
+
+
+
 
 
 .seccion-servicios {
@@ -193,3 +194,43 @@ video {
     text-decoration: none;
     border-radius: 5px;
 }
+
+
+
+
+
+
+
+.pie-pagina {
+    background-color: #212121; 
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.redes-sociales a {
+    
+    margin: 0 10px; 
+    color: #fff; 
+    font-size: 25px;
+  
+}
+
+.redes-sociales a:hover {
+    color: #f2e80d; 
+}
+
+.derechos p {
+    color: #fff;
+    margin: 0; 
+    
+}
+
+
+  
+
+    
