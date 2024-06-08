@@ -166,6 +166,8 @@ video {
 }
 .Imagenes-container img{
     width: 50%;
+    max-width: 500px;
+    max-height: 500px;
 }
 @keyframes slider {
    0% {margin-left: 0%;}
