@@ -134,32 +134,38 @@ video {
 
 }
 .Imagenes-container{
-    width: 520px;
-    height: auto;
-    margin: 50px auto 0;
+    width: 95%;
+    margin:auto;
     overflow: hidden;
-    animation: slide 15s infinite delay iteration-count direction fill-mode;
+    
 }
 .Imagenes-container ul{
     display: flex;
     padding: 0;
-    width: 400%;
+   width: 400%;
+   animation: slider 20s infinite alternate;
+   
 }
 .Imagenes-container li{
     list-style: none;
     width: 100%;
+    
 }
 .Imagenes-container img{
-    max-width: 100%;
+    width: 50%;
 }
-@keyframes slide{
-   0%{margin-left: 0%;}
+@keyframes slider {
+   0% {margin-left: 0%;}
+   20% {margin-left: 0%;}
 
-   0%{margin-left: 0%;}
+   25% {margin-left: -100%;}
+   45% {margin-left: -100%;}
 
-   0%{margin-left: 0%;}
+   50% {margin-left: -200%;}
+   70% {margin-left: -200%;}
 
-   0%{margin-left: 0%;}
+   75% {margin-left: -300%;}
+   95% {margin-left: -300%;}
 }
 /*
 .Imagenes-container{
