@@ -102,12 +102,15 @@ justify-content: space-around;
 }
 
 p {
-    color: #999da0;
+    color:whitesmoke;
     font-family: Montserrat;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 600;
 }
-
+h3{
+    color:whitesmoke;
+    font-family: Montserrat;
+}
 video {
 
     max-width: 100%;
@@ -125,6 +128,7 @@ video {
 }
 .inicio-content a {
     color: #010101;
+    margin-left: 1em;
     font-family: Montserrat;
     box-shadow: 0 0 15px 0 #f2e80d;
     border-radius: 7px;
@@ -218,19 +222,25 @@ video {
 .caja img {
     width: 150px;
     height: 150px;
+    border-radius: 80px;
 }
 
 .una {
     background-color: #999d; 
+    box-shadow: 0 0 15px 0 #f2e80d;
+
     }
 .dos { 
     background-color: #f2e80e;
+    box-shadow: 0 0 15px 0 #010101;
  }
 .tres { 
     background-color: #999d; 
+    box-shadow: 0 0 15px 0 #f2e80d;
 }
 .cuatro { 
     background-color: #f2e80e;
+    box-shadow: 0 0 15px #010101;
 }
 
 .caja-titulo {
