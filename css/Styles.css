@@ -199,15 +199,23 @@ video {
 */
 
 
-.seccion-servicios {
-    text-align: center;
-    padding: 20px;
-}
+
 
 .seccion-servicios h2 {
-    color: #ff0;
-    margin-bottom: 20px;
+
+    width: 100%;
+    text-align: center;
     font-size: 2em;
+    margin: 20px ;
+    color: #f2e80e;
+
+ 
+}
+
+.seccion-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .caja {
@@ -217,8 +225,7 @@ video {
     border-radius: 10px;
     color: #000;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
+    box-sizing: border-box;
 }
 
 .caja img {
@@ -230,19 +237,21 @@ video {
 .una {
     background-color: #999d; 
     box-shadow: 0 0 15px 0 #f2e80d;
+}
 
-    }
 .dos { 
     background-color: #f2e80e;
     box-shadow: 0 0 15px 0 #010101;
- }
+}
+
 .tres { 
     background-color: #999d; 
     box-shadow: 0 0 15px 0 #f2e80d;
 }
+
 .cuatro { 
     background-color: #f2e80e;
-    box-shadow: 0 0 15px #010101;
+    box-shadow: 0 0 15px 0 #010101;
 }
 
 .caja-titulo {
@@ -252,18 +261,17 @@ video {
 
 .caja p {
     font-size: 14px;
-    color:#000
+    color: #000;
 }
 
 .boton {
     margin-top: 10px;
     padding: 10px;
     background-color: black;
-    color: #f2e80e;;
+    color: #f2e80e;
     text-decoration: none;
     border-radius: 5px;
 }
-
 
 
 
