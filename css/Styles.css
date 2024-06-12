@@ -1,31 +1,32 @@
 body {
     margin: 0;
     padding: 0;
-    
+
     background: linear-gradient(To top, #010101, #999da0);
     background-attachment: fixed;
     background-size: 100% 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
-} 
+
+}
 
 header {
     background-color: #010101;
     margin-top: 0;
     border-bottom: #999da0;
-    border-style: solid;
-    border-radius: 4px;
-    
-   
-}
+    box-shadow: 0 0 15px 0 #f2e80d;
+     position: sticky;
+     top: 0;
 
+}
+main{
+    padding-bottom: 100px;
+}
 
 .navbar-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-
 }
 
 .nav-links {
@@ -55,6 +56,7 @@ h2 {
     font-family: Anton;
     font-weight: 400;
 }
+
 
 .logo img {
     max-width: 100px;
@@ -89,43 +91,59 @@ ul li a:hover {
     flex-wrap: wrap;
     gap: 1rem;
     box-shadow: 0 0 15px 0 #f2e80d;
-    
+
 }
 
 .inicio-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-justify-content: space-around;
+    justify-content: space-around;
     align-items: start;
 
 }
 
 p {
-    color:whitesmoke;
+    color: whitesmoke;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
 }
-h3{
-    color:whitesmoke;
+
+h3 {
+    color: whitesmoke;
     font-family: Montserrat;
 }
-video {
 
+video {
+  border-top: #f2e80d;
+  border-bottom: #f2e80d;
+  border-style: solid;
     max-width: 100%;
     height: 540px;
-   
-}
 
-#titulo-introductorio {
+}
+#te-ofrecemos{
     font-family: anton;
     color: #f2e80d;
+    background-color: #010101;
+    font-weight: 300;
+    box-shadow: 0 0 15px 0 #f2e80d;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
-.inicio-content{
+#titulo-introductorio {
+    padding-top: 10px;
+    font-family: anton;
+    color: #010101;
+}
+
+.inicio-content {
     text-align: justify;
     justify-items: center;
 }
+
 .inicio-content a {
     color: #010101;
     margin-left: 1em;
@@ -137,51 +155,78 @@ video {
     background-color: #f2e80d;
 
 }
-.Imagenes-container{
+
+.Imagenes-container {
     width: 95%;
-    margin:auto;
+    margin: auto;
     overflow: hidden;
-   
-   
-    
-    
+
+
+
+
 }
-.carrusel{
+
+.carrusel {
     background-color: #f2e80d;
     box-shadow: 0 0 15px 0 #f2e80d;
 }
-.Imagenes-container ul{
+
+.Imagenes-container ul {
     display: flex;
     padding: 0;
-   width: 400%;
-   animation: slider 20s infinite alternate;
-   
+    width: 400%;
+    animation: slider 20s infinite alternate;
+
 }
-.Imagenes-container li{
+
+.Imagenes-container li {
     list-style: none;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Imagenes-container img{
+
+.Imagenes-container img {
     width: 50%;
     max-width: 500px;
     max-height: 500px;
 }
+
 @keyframes slider {
-   0% {margin-left: 0%;}
-   20% {margin-left: 0%;}
+    0% {
+        margin-left: 0%;
+    }
 
-   25% {margin-left: -100%;}
-   45% {margin-left: -100%;}
+    20% {
+        margin-left: 0%;
+    }
 
-   50% {margin-left: -200%;}
-   70% {margin-left: -200%;}
+    25% {
+        margin-left: -100%;
+    }
 
-   75% {margin-left: -300%;}
-   95% {margin-left: -300%;}
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    95% {
+        margin-left: -300%;
+    }
 }
+
 /*
 .Imagenes-container{
     display: flex;
@@ -206,10 +251,10 @@ video {
     width: 100%;
     text-align: center;
     font-size: 2em;
-    margin: 20px ;
+    margin: 20px;
     color: #f2e80e;
 
- 
+
 }
 
 .seccion-servicios {
@@ -234,22 +279,22 @@ video {
     border-radius: 80px;
 }
 
-.una {
-    background-color: #999d; 
+.Grupales {
+    background-color: #999d;
     box-shadow: 0 0 15px 0 #f2e80d;
 }
 
-.dos { 
+.Entrenadores {
     background-color: #f2e80e;
     box-shadow: 0 0 15px 0 #010101;
 }
 
-.tres { 
-    background-color: #999d; 
+.Rutinas {
+    background-color: #999d;
     box-shadow: 0 0 15px 0 #f2e80d;
 }
 
-.cuatro { 
+.Suplementacion {
     background-color: #f2e80e;
     box-shadow: 0 0 15px 0 #010101;
 }
@@ -277,70 +322,96 @@ video {
 
 
 .pie-pagina {
-    background-color: #212121; 
+    background-color: #212121;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    width: 98%;
+    bottom: 0px;
+    margin-top: 300px;
+
+
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-   
+
+
 }
 
 
 
 .redes-sociales a {
-    
-    margin: 0 10px; 
-    color: #fff; 
+
+    margin: 0 10px;
+    color: #fff;
     font-size: 25px;
 
-  
+
 }
 
 .redes-sociales a:hover {
-    color: #f2e80d; 
+    color: #f2e80d;
 }
 
 .derechos p {
     color: #fff;
-    margin: 0; 
+    margin: 0;
+
+}
+.integrantes_Brandon{
+background: #999da0;
+text-align: center;
+width: 300px;
+margin: auto;
+margin-top: 50px;
+padding: 20px 10px;
+box-shadow: 0 0 35px 0 #010101;
+border-radius: 8px;
+}
+.titulo_card{
+font-size: 22px;
+margin: 0;
+}
+.brandon_content{
+    font-size: 15px;
+    padding: 10px ;
+    padding-bottom: 0;
+    text-align: justify;
     
 }
-
-
-.integrantes-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.brandon_img{
+    width: 180px;
+    border-radius: 30%;
 }
-
-.brandon-content, .dylan-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #ddd;
-    padding: 20px;
+.integrantes_Dylan{
+    background: #999da0;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 35px 0 #010101;
     border-radius: 8px;
-    flex-wrap: wrap; 
+}
+.dylan_img{
+    width: 160px;
+    border-radius: 30%; 
+}
+.titulo_card{
+    font-size: 22px;
+margin: 0;
+}
+.dylan_content{
+    font-size: 15px;
+    padding: 8px ;
+    
+    text-align: justify;
+}
+.integrantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-  .dylan-content img {
-    width: 300px;
-    height: 300px;
-    border-radius: 80px;
-    order: 2;
-  }
-  .brandon-content img {
-    width: 300px;
-    height: 300px;
-    border-radius: 80px;
-  }
-
-
-
-  
-
-    
