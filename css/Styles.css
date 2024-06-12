@@ -312,14 +312,6 @@ video {
     color: #000;
 }
 
-.boton {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: black;
-    color: #f2e80e;
-    text-decoration: none;
-    border-radius: 5px;
-}
 
 
 
@@ -482,4 +474,174 @@ label{
 }
 .check{
    width: auto; 
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+  
+}
+
+.boton .contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton .texto a {
+   display: inline-flex;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #010101;
+    background-color: #f2e80d; 
+    text-decoration: none;
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px #f2e80d
+   
+}
+
+.boton .texto a:hover {
+    background-color: #f4f4f4; 
+    transform: translateY(-2px); 
+}
+
+
+
+
+
+
+
+
+.ubicacion {
+    
+    padding: 40px 20px;
+   
+    
+}
+
+
+
+.texto-ubicacion  h2{
+    color: #f2e80d;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: #010101;
+}
+
+.introduccion img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.adicionales {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adicionales h2 {
+    color: #f2e80d;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.adicional-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.adicional {
+    background-color: #f2e80d;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+    
+    flex: 1 1 300px
+    
+    
+}
+
+.adicional img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.adicional h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #010101;
+}
+
+.adicional p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #010101;
+}
+
+
+.informacion {
+
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    color: #f2e80e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.eslogan-del-gym {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+  
+}
+
+.eslogan-del-gym h2 {
+   display: inline-flex;
+    padding: 10px 20px;
+    font-size: 28px;
+    color: #010101;
+    background-color: #f2e80d; 
+    text-decoration: none;
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px #f2e80d
+   
+}
+
+.ubicacion {
+    padding: 40px 40px;
+    text-align: center;
+    background-color: #212121;
+}
+
+.texto-ubicacion {
+    margin-bottom: 20px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+   
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
 }
