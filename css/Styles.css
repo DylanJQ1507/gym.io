@@ -659,7 +659,7 @@ iframe {
 
 @media (max-width: 1115px) {
     .nav-links {
-        display: none;
+        display:  none;
         flex-direction: column;
         width: 100%;
        
