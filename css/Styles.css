@@ -664,6 +664,9 @@ iframe {
         width: 100%;
        background-color: #000;
     }
+    header{
+        background-color: #010101;
+    }
 .navbar-container{
     display: flex;
  justify-content: space-between;
