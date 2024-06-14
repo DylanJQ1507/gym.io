@@ -662,7 +662,7 @@ iframe {
         display:  none;
         flex-direction: column;
         width: 100%;
-       
+       background-color: #000;
     }
 .navbar-container{
     display: flex;
