@@ -667,6 +667,7 @@ iframe {
 .navbar-container{
     display: flex;
  justify-content: space-between;
+ background-color: #000;
 }
     .nav-links a {
         text-align: center;
