@@ -1,202 +1,289 @@
 body {
+    /* Elimina el margen y el relleno del cuerpo */
     margin: 0;
     padding: 0;
 
+    /* Define un fondo con un degradado que va de abajo hacia arriba de #010101 a #999da0 */
     background: linear-gradient(To top, #010101, #999da0);
+    /* Hace que el fondo permanezca fijo al hacer scroll */
     background-attachment: fixed;
+    /* Ajusta el tamaño del fondo para que ocupe el 100% del ancho y alto del cuerpo */
     background-size: 100% 100%;
+    /* Utiliza un diseño de cuadrícula con una sola columna */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
 }
 
 header {
+    /* Define el color de fondo del encabezado */
     background-color: #010101;
+    /* Elimina el margen superior */
     margin-top: 0;
+    /* Define un borde inferior de color #999da0 */
     border-bottom: #999da0;
+    /* Añade una sombra al encabezado */
     box-shadow: 0 0 15px 0 #f2e80d;
+    /* Hace que el encabezado sea fijo en la parte superior al hacer scroll */
     position: sticky;
     top: 0;
-
 }
 
 main {
+    /* Añade un relleno inferior para dar espacio al contenido principal */
     padding-bottom: 100px;
 }
 
 .navbar-container {
+    /* Utiliza un diseño flexible para el contenedor de la barra de navegación */
     display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Añade un espacio de 1rem entre los elementos */
     gap: 1rem;
 }
 
 .nav-links {
+    /* Utiliza un diseño flexible para los enlaces de navegación */
     display: flex;
+    /* Permite que los enlaces se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Añade un espacio de 1rem entre los enlaces */
     gap: 1rem;
+    /* Alinea los enlaces al centro verticalmente */
     align-items: center;
-
-
 }
 
 h1 {
+    /* Elimina el margen superior */
     margin-top: 0;
+    /* Centra el texto del título */
     text-align: center;
+    /* Define el color del texto */
     color: #f2e80d;
+    /* Utiliza la fuente 'Anton' */
     font-family: Anton;
+    /* Define el peso de la fuente */
     font-weight: 400;
+    /* Define el tamaño de la fuente */
     font-size: 35px;
+    /* Añade una sombra al texto */
     box-shadow: 0 0 15px 0 #f2e80d;
-
 }
 
 h2 {
+    /* Elimina el margen superior */
     margin-top: 0;
+    /* Centra el texto del subtítulo */
     text-align: center;
+    /* Define el color del texto */
     color: #999da0;
+    /* Utiliza la fuente 'Anton' */
     font-family: Anton;
+    /* Define el peso de la fuente */
     font-weight: 400;
 }
 
-
 .logo img {
+    /* Define el ancho máximo de la imagen del logo */
     max-width: 100px;
+    /* Ajusta la altura automáticamente para mantener la proporción */
     height: auto;
+    /* Añade un margen izquierdo a la imagen del logo */
     margin-left: 40px;
 }
 
-
 ul li a {
+    /* Centra el texto de los enlaces */
     text-align: center;
+    /* Añade un margen izquierdo de 3em a los enlaces */
     margin-left: 3em;
+    /* Añade un margen derecho de 3em a los enlaces */
     margin-right: 3em;
+    /* Define el color del texto de los enlaces */
     color: #999da0;
+    /* Elimina la subrayado de los enlaces */
     text-decoration: none;
+    /* Utiliza la fuente 'sans-serif' */
     font-family: sans-serif;
 }
 
 ul li a:hover {
+    /* Cambia el color del texto de los enlaces a amarillo cuando se pasa el ratón sobre ellos */
     color: yellow;
-
 }
 
 .Banner {
+    /* Utiliza un diseño de cuadrícula para el banner */
     display: grid;
+    /* Define una sola columna en la cuadrícula */
     grid-template-columns: repeat(1, 1fr);
+    /* Añade un espacio de 1rem entre los elementos del banner */
     gap: 1rem;
+    /* Define el color de fondo del banner */
     background-color: #010101;
 }
 
 .inicio {
+    /* Utiliza un diseño flexible para la sección de inicio */
     display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Añade un espacio de 1rem entre los elementos */
     gap: 1rem;
+    /* Añade una sombra a la sección de inicio */
     box-shadow: 0 0 15px 0 #f2e80d;
-
 }
 
 .inicio-container {
+    /* Utiliza un diseño flexible para el contenedor de inicio */
     display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Añade un espacio de 1rem entre los elementos */
     gap: 1rem;
+    /* Justifica el contenido con espacio alrededor */
     justify-content: space-around;
+    /* Alinea los elementos al inicio */
     align-items: start;
-
 }
 
 p {
+    /* Define el color del texto de los párrafos */
     color: whitesmoke;
+    /* Utiliza la fuente 'Montserrat' */
     font-family: Montserrat;
+    /* Define el tamaño de la fuente */
     font-size: 20px;
+    /* Define el peso de la fuente */
     font-weight: 600;
 }
 
 h3 {
+    /* Define el color del texto de los encabezados h3 */
     color: whitesmoke;
+    /* Utiliza la fuente 'Montserrat' */
     font-family: Montserrat;
 }
 
 video {
+    /* Define el borde superior del video con color #f2e80d */
     border-top: #f2e80d;
+    /* Define el borde inferior del video con color #f2e80d */
     border-bottom: #f2e80d;
+    /* Define el estilo del borde como sólido */
     border-style: solid;
+    /* Define el ancho máximo del video */
     max-width: 100%;
+    /* Define la altura del video */
     height: 540px;
-
 }
 
 #te-ofrecemos {
+    /* Utiliza la fuente 'Anton' para el elemento con id 'te-ofrecemos' */
     font-family: anton;
+    /* Define el color del texto */
     color: #f2e80d;
+    /* Define el color de fondo */
     background-color: #010101;
+    /* Define el peso de la fuente */
     font-weight: 300;
+    /* Añade una sombra al elemento */
     box-shadow: 0 0 15px 0 #f2e80d;
+    /* Elimina el margen izquierdo */
     margin-left: 0;
+    /* Elimina el margen derecho */
     margin-right: 0;
+    /* Elimina el margen superior */
     margin-top: 0;
 }
 
 #titulo-introductorio {
+    /* Añade un relleno superior de 10px */
     padding-top: 10px;
+    /* Utiliza la fuente 'Anton' para el elemento con id 'titulo-introductorio' */
     font-family: anton;
+    /* Define el color del texto */
     color: #010101;
 }
 
 .inicio-content {
+    /* Justifica el texto del contenido de inicio */
     text-align: justify;
+    /* Centra los elementos dentro del contenido de inicio */
     justify-items: center;
 }
 
 .inicio-content a {
+    /* Define el color del texto de los enlaces dentro de 'inicio-content' */
     color: #010101;
+    /* Añade un margen izquierdo de 1em a los enlaces */
     margin-left: 1em;
+    /* Utiliza la fuente 'Montserrat' para los enlaces */
     font-family: Montserrat;
+    /* Añade una sombra a los enlaces */
     box-shadow: 0 0 15px 0 #f2e80d;
+    /* Redondea las esquinas de los enlaces */
     border-radius: 7px;
+    /* Define el tamaño de la fuente */
     font-size: 30px;
+    /* Define el peso de la fuente */
     font-weight: 600;
+    /* Define el color de fondo de los enlaces */
     background-color: #f2e80d;
-
 }
 
 .Imagenes-container {
+    /* Define el ancho del contenedor de imágenes como 95% */
     width: 95%;
+    /* Centra el contenedor de imágenes automáticamente */
     margin: auto;
+    /* Oculta el desbordamiento del contenido */
     overflow: hidden;
-
-
-
-
 }
 
 .carrusel {
+    /* Define el color de fondo del carrusel */
     background-color: #f2e80d;
+    /* Añade una sombra al carrusel */
     box-shadow: 0 0 15px 0 #f2e80d;
 }
 
 .Imagenes-container ul {
+    /* Utiliza un diseño flexible para el contenedor de lista de imágenes */
     display: flex;
+    /* Elimina el relleno del contenedor de lista de imágenes */
     padding: 0;
+    /* Define el ancho del contenedor de lista de imágenes como 400% */
     width: 400%;
+    /* Añade una animación deslizante a la lista de imágenes */
     animation: slider 20s infinite alternate;
-
 }
 
 .Imagenes-container li {
+    /* Elimina el estilo de lista para los elementos de la lista de imágenes */
     list-style: none;
+    /* Define el ancho de cada elemento de la lista como 100% */
     width: 100%;
+    /* Utiliza un diseño flexible para los elementos de la lista */
     display: flex;
+    /* Centra horizontalmente los elementos de la lista */
     justify-content: center;
+    /* Centra verticalmente los elementos de la lista */
     align-items: center;
 }
 
 .Imagenes-container img {
+    /* Define el ancho de las imágenes como 50% */
     width: 50%;
+    /* Define el ancho máximo de las imágenes como 500px */
     max-width: 500px;
+    /* Define la altura máxima de las imágenes como 500px */
     max-height: 500px;
 }
 
+
 @keyframes slider {
+    /* Define la animación 'slider' para el desplazamiento del carrusel */
     0% {
         margin-left: 0%;
     }
@@ -230,85 +317,93 @@ video {
     }
 }
 
-/*
-.Imagenes-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    animation: ;
-    
-}
-.slider-item{
-    
-    
-    max-width: 30%;
-    height: auto;
-}
-*/
-
-
-
-
 .seccion-servicios h2 {
-
+    /* Define el ancho del encabezado h2 como 100% */
     width: 100%;
+    /* Centra el texto del encabezado h2 */
     text-align: center;
+    /* Define el tamaño de la fuente */
     font-size: 2em;
+    /* Añade un margen de 20px alrededor del encabezado h2 */
     margin: 20px;
+    /* Define el color del texto */
     color: #f2e80e;
-
-
 }
 
 .seccion-servicios {
+    /* Utiliza un diseño flexible para la sección de servicios */
     display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Centra los elementos dentro de la sección de servicios */
     justify-content: center;
 }
 
 .caja {
+    /* Define el ancho de las cajas como 300px */
     width: 300px;
+    /* Añade un margen de 10px alrededor de las cajas */
     margin: 10px;
+    /* Añade un relleno de 20px dentro de las cajas */
     padding: 20px;
+    /* Redondea las esquinas de las cajas */
     border-radius: 10px;
+    /* Define el color del texto dentro de las cajas */
     color: #000;
+    /* Centra el texto dentro de las cajas */
     text-align: center;
+    /* Asegura que el relleno y el borde se incluyan en el tamaño total de las cajas */
     box-sizing: border-box;
 }
 
 .caja img {
+    /* Define el ancho de las imágenes dentro de las cajas como 150px */
     width: 150px;
+    /* Define la altura de las imágenes dentro de las cajas como 150px */
     height: 150px;
+    /* Redondea las esquinas de las imágenes para hacerlas circulares */
     border-radius: 80px;
 }
 
 .Grupales {
+    /* Define el color de fondo de las cajas 'Grupales' */
     background-color: #999d;
+    /* Añade una sombra a las cajas 'Grupales' */
     box-shadow: 0 0 15px 0 #f2e80d;
 }
 
 .Entrenadores {
+    /* Define el color de fondo de las cajas 'Entrenadores' */
     background-color: #f2e80e;
+    /* Añade una sombra a las cajas 'Entrenadores' */
     box-shadow: 0 0 15px 0 #010101;
 }
 
 .Rutinas {
+    /* Define el color de fondo de las cajas 'Rutinas' */
     background-color: #999d;
+    /* Añade una sombra a las cajas 'Rutinas' */
     box-shadow: 0 0 15px 0 #f2e80d;
 }
 
 .Suplementacion {
+    /* Define el color de fondo de las cajas 'Suplementacion' */
     background-color: #f2e80e;
+    /* Añade una sombra a las cajas 'Suplementacion' */
     box-shadow: 0 0 15px 0 #010101;
 }
 
 .caja-titulo {
+    /* Define el tamaño de la fuente del título dentro de las cajas */
     font-size: 18px;
+    /* Añade un margen vertical de 10px y sin margen horizontal */
     margin: 10px 0;
 }
 
 .caja p {
+    /* Define el tamaño de la fuente del texto dentro de las cajas */
     font-size: 14px;
+    /* Define el color del texto dentro de las cajas */
     color: #000;
 }
 
@@ -317,113 +412,155 @@ video {
 
 
 .pie-pagina {
+    /* Define el color de fondo del pie de página */
     background-color: #212121;
+    /* Añade un relleno de 20px dentro del pie de página */
     padding: 20px;
+    /* Centra el texto dentro del pie de página */
     text-align: center;
+    /* Fija el pie de página en la parte inferior de la ventana */
     position: fixed;
+    /* Define el ancho del pie de página como el 98% */
     width: 98%;
+    /* Fija la posición inferior del pie de página */
     bottom: 0px;
+    /* Añade un margen superior de 300px */
     margin-top: 300px;
+    /* Utiliza la fuente 'sans-serif' para el texto del pie de página */
     font-family: sans-serif;
-
 }
 
 .footer-container {
+    /* Utiliza un diseño flexible para el contenedor del pie de página */
     display: flex;
+    /* Distribuye el espacio entre los elementos dentro del contenedor del pie de página */
     justify-content: space-between;
 }
 
-
-
 .redes-sociales a {
-
+    /* Añade un margen horizontal de 10px a los enlaces de redes sociales */
     margin: 0 10px;
+    /* Define el color del texto de los enlaces de redes sociales */
     color: #fff;
+    /* Define el tamaño de la fuente de los enlaces de redes sociales */
     font-size: 25px;
-
-
 }
 
 .redes-sociales a:hover {
+    /* Cambia el color del texto de los enlaces de redes sociales a #f2e80d al pasar el ratón por encima */
     color: #f2e80d;
 }
 
 .derechos p {
+    /* Define el color del texto de los párrafos dentro de la sección de derechos */
     color: #fff;
+    /* Elimina el margen de los párrafos */
     margin: 0;
-
 }
 
 .integrantes_Brandon {
+    /* Define el color de fondo de la tarjeta de Brandon */
     background: #999da0;
+    /* Centra el texto dentro de la tarjeta de Brandon */
     text-align: center;
+    /* Define el ancho de la tarjeta de Brandon como 300px */
     width: 300px;
+    /* Centra automáticamente la tarjeta de Brandon */
     margin: auto;
+    /* Añade un margen superior de 50px a la tarjeta de Brandon */
     margin-top: 50px;
+    /* Añade un relleno de 20px vertical y 10px horizontal a la tarjeta de Brandon */
     padding: 20px 10px;
+    /* Añade una sombra a la tarjeta de Brandon */
     box-shadow: 0 0 35px 0 #010101;
+    /* Redondea las esquinas de la tarjeta de Brandon */
     border-radius: 8px;
 }
 
 .titulo_card {
+    /* Define el tamaño de la fuente del título dentro de las tarjetas */
     font-size: 22px;
+    /* Elimina el margen del título */
     margin: 0;
 }
 
 .brandon_content {
+    /* Define el tamaño de la fuente del contenido dentro de la tarjeta de Brandon */
     font-size: 15px;
+    /* Añade un relleno de 10px alrededor del contenido dentro de la tarjeta de Brandon */
     padding: 10px;
+    /* Elimina el relleno inferior del contenido dentro de la tarjeta de Brandon */
     padding-bottom: 0;
+    /* Justifica el texto dentro de la tarjeta de Brandon */
     text-align: justify;
-
 }
 
 .brandon_img {
+    /* Define el ancho de la imagen dentro de la tarjeta de Brandon como 180px */
     width: 180px;
+    /* Redondea las esquinas de la imagen dentro de la tarjeta de Brandon */
     border-radius: 30%;
 }
 
 .integrantes_Dylan {
+    /* Define el color de fondo de la tarjeta de Dylan */
     background: #999da0;
+    /* Centra el texto dentro de la tarjeta de Dylan */
     text-align: center;
+    /* Define el ancho de la tarjeta de Dylan como 300px */
     width: 300px;
+    /* Centra automáticamente la tarjeta de Dylan */
     margin: auto;
+    /* Añade un margen superior de 50px a la tarjeta de Dylan */
     margin-top: 50px;
+    /* Añade un relleno de 20px vertical y 10px horizontal a la tarjeta de Dylan */
     padding: 20px 10px;
+    /* Añade una sombra a la tarjeta de Dylan */
     box-shadow: 0 0 35px 0 #010101;
+    /* Redondea las esquinas de la tarjeta de Dylan */
     border-radius: 8px;
 }
 
 .dylan_img {
+    /* Define el ancho de la imagen dentro de la tarjeta de Dylan como 160px */
     width: 160px;
+    /* Redondea las esquinas de la imagen dentro de la tarjeta de Dylan */
     border-radius: 30%;
 }
 
-.titulo_card {
-    font-size: 22px;
-    margin: 0;
-}
-
 .dylan_content {
+    /* Define el tamaño de la fuente del contenido dentro de la tarjeta de Dylan */
     font-size: 15px;
+    /* Añade un relleno de 8px alrededor del contenido dentro de la tarjeta de Dylan */
     padding: 8px;
-
+    /* Justifica el texto dentro de la tarjeta de Dylan */
     text-align: justify;
 }
 
 .integrantes {
+    /* Utiliza un diseño flexible para el contenedor de integrantes */
     display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Centra los elementos dentro del contenedor de integrantes */
     justify-content: center;
 }
 
+
 form {
+    /* Define el color de fondo del formulario */
     background-color: #212121;
+    /* Añade un relleno de 10px vertical y 20px horizontal al formulario */
     padding: 10px 20px;
+    /* Define el ancho máximo del formulario como 500px */
     max-width: 500px;
+    /* Centra automáticamente el formulario */
     margin: auto;
-    margin-top: 50PX;
+    /* Añade un margen superior de 50px al formulario */
+    margin-top: 50px;
+    /* Añade una sombra al formulario */
     box-shadow: 0px 0px 75px #010101;
+    /* Redondea las esquinas del formulario */
     border-radius: 8px;
 }
 
@@ -431,85 +568,130 @@ input,
 textarea,
 select,
 button {
+    /* Define el ancho de los elementos del formulario como 100% */
     width: 100%;
+    /* Asegura que el relleno y el borde se incluyan en el tamaño total de los elementos */
     box-sizing: border-box;
+    /* Añade un relleno de 6px vertical y 8px horizontal a los elementos */
     padding: 6px 8px;
+    /* Elimina el borde de los elementos del formulario */
     border: none;
+    /* Añade una sombra a los elementos del formulario */
     box-shadow: 0px 0px 5px #f2e80d;
+    /* Añade un borde a los elementos del formulario */
     border: 1px solid #f4f4f4;
+    /* Define el color de fondo de los elementos como transparente */
     background-color: transparent;
+    /* Define el color del texto de los elementos del formulario */
     color: #f4f4f4;
+    /* Añade un margen superior de 6px a los elementos del formulario */
     margin-top: 6px 0;
 }
 
 option {
+    /* Define el color de fondo de las opciones del selector */
     background-color: #212121;
 }
 
 fieldset {
+    /* Añade un margen vertical de 20px al campo de conjunto */
     margin: 20px 0;
+    /* Añade un borde al campo de conjunto */
     border: 2px solid #f2e80d;
+    /* Redondea las esquinas del campo de conjunto */
     border-radius: 5px;
+    /* Añade un relleno al campo de conjunto */
     padding: 0 20px 20px 20px;
 }
 
 legend {
+    /* Añade un relleno horizontal de 6px al título del campo de conjunto */
     padding: 0 6px;
+    /* Utiliza la fuente 'Montserrat' para el título del campo de conjunto */
     font-family: Montserrat;
+    /* Define el color del texto del título del campo de conjunto */
     color: #f4f4f4;
 }
 
 textarea {
+    /* Impide que el área de texto sea redimensionable */
     resize: none;
+    /* Define el ancho mínimo del área de texto como 100% */
     min-width: 100%;
+    /* Define la altura mínima del área de texto como 100px */
     min-height: 100px;
+    /* Define la altura máxima del área de texto como 200px */
     max-height: 200px;
+    /* Utiliza la fuente 'sans-serif' para el texto dentro del área de texto */
     font-family: sans-serif;
 }
 
 .form-item {
+    /* Añade un relleno de 10px vertical y 20px horizontal a los elementos del formulario */
     padding: 10px 20px;
 }
 
 label {
+    /* Define el tamaño de la fuente de las etiquetas */
     font-size: 0.9em;
+    /* Define el peso de la fuente de las etiquetas */
     font-weight: 500;
+    /* Utiliza la fuente 'Montserrat' para las etiquetas */
     font-family: Montserrat;
+    /* Define el color del texto de las etiquetas */
     color: #f4f4f4;
+    /* Define la altura de línea de las etiquetas */
     line-height: 2;
 }
 
 .check {
+    /* Define el ancho de los elementos de verificación como automático */
     width: auto;
 }
 
 .boton {
+    /* Utiliza un diseño flexible para el contenedor del botón */
     display: flex;
+    /* Centra horizontalmente el contenido dentro del contenedor del botón */
     justify-content: center;
+    /* Centra verticalmente el contenido dentro del contenedor del botón */
     align-items: center;
+    /* Añade un margen superior de 25px al contenedor del botón */
     margin-top: 25px;
-
 }
 
 .boton .contacto {
+    /* Utiliza un diseño flexible para el contenedor de contacto */
     display: flex;
+    /* Centra horizontalmente el contenido dentro del contenedor de contacto */
     justify-content: center;
+    /* Centra verticalmente el contenido dentro del contenedor de contacto */
     align-items: center;
 }
 
 .boton .texto a {
+    /* Utiliza un diseño de flexión en línea para los enlaces dentro del contenedor de texto */
     display: inline-flex;
+    /* Añade un relleno de 20px vertical y 40px horizontal a los enlaces */
     padding: 20px 40px;
+    /* Define el tamaño de la fuente de los enlaces */
     font-size: 18px;
+    /* Define el color del texto de los enlaces */
     color: #010101;
+    /* Define el color de fondo de los enlaces */
     background-color: #f2e80d;
+    /* Elimina la decoración del texto de los enlaces */
     text-decoration: none;
+    /* Redondea las esquinas de los enlaces */
     border-radius: 5px;
-    box-shadow: 0 4px 6px #f2e80d
+    /* Añade una sombra a los enlaces */
+    box-shadow: 0 4px 6px #f2e80d;
 }
 
 .boton .texto a:hover {
+    /* Cambia el color de fondo de los enlaces al pasar el ratón por encima */
     background-color: #f4f4f4;
+    /* Aplica una transformación para mover los enlaces hacia arriba */
     transform: translateY(-2px);
 }
 
@@ -521,343 +703,358 @@ label {
 
 
 .ubicacion {
-
+    /* Añade un relleno de 40px vertical y 20px horizontal a la sección de ubicación */
     padding: 40px 20px;
-
-
 }
 
-
-
 .texto-ubicacion h2 {
+    /* Define el color del texto del título en la sección de ubicación */
     color: #f2e80d;
+    /* Define el tamaño de la fuente del título en la sección de ubicación */
     font-size: 30px;
+    /* Añade un margen inferior de 20px al título en la sección de ubicación */
     margin-bottom: 20px;
+    /* Añade una sombra al texto del título en la sección de ubicación */
     text-shadow: #010101;
 }
 
 .introduccion img {
+    /* Define el ancho de las imágenes dentro de la sección de introducción como 100% */
     width: 100%;
+    /* Define el ancho máximo de las imágenes dentro de la sección de introducción como 600px */
     max-width: 600px;
+    /* Redondea las esquinas de las imágenes dentro de la sección de introducción */
     border-radius: 10px;
+    /* Añade un margen superior de 20px a las imágenes dentro de la sección de introducción */
     margin-top: 20px;
 }
 
 .adicionales {
+    /* Añade un relleno de 40px vertical y 20px horizontal a la sección de adicionales */
     padding: 40px 20px;
+    /* Utiliza un diseño flexible para la sección de adicionales */
     display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Centra los elementos dentro de la sección de adicionales */
     justify-content: center;
 }
 
 .adicionales h2 {
+    /* Define el color del texto del título en la sección de adicionales */
     color: #f2e80d;
+    /* Define el tamaño de la fuente del título en la sección de adicionales */
     font-size: 30px;
+    /* Añade un margen inferior de 20px al título en la sección de adicionales */
     margin-bottom: 20px;
-
 }
 
 .adicional-container {
+    /* Utiliza un diseño flexible para el contenedor de adicionales */
     display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Centra los elementos dentro del contenedor de adicionales */
     justify-content: center;
 }
 
 .adicional {
+    /* Define el color de fondo de los elementos adicionales */
     background-color: #f2e80d;
+    /* Añade un relleno de 20px a los elementos adicionales */
     padding: 20px;
+    /* Añade un margen de 10px a los elementos adicionales */
     margin: 10px;
+    /* Redondea las esquinas de los elementos adicionales */
     border-radius: 10px;
+    /* Define el ancho máximo de los elementos adicionales como 400px */
     max-width: 400px;
+    /* Centra el texto dentro de los elementos adicionales */
     text-align: center;
-
-    flex: 1 1 300px
+    /* Define la flexibilidad de los elementos adicionales para que se expandan o contraigan según sea necesario */
+    flex: 1 1 300px;
 }
 
 .adicional img {
+    /* Define el ancho de las imágenes dentro de los elementos adicionales como 100% */
     width: 100%;
+    /* Redondea las esquinas de las imágenes dentro de los elementos adicionales */
     border-radius: 10px;
+    /* Añade un margen inferior de 20px a las imágenes dentro de los elementos adicionales */
     margin-bottom: 20px;
 }
 
 .adicional h3 {
+    /* Define el tamaño de la fuente de los títulos dentro de los elementos adicionales */
     font-size: 24px;
+    /* Añade un margen inferior de 10px a los títulos dentro de los elementos adicionales */
     margin-bottom: 10px;
+    /* Define el color del texto de los títulos dentro de los elementos adicionales */
     color: #010101;
 }
 
 .adicional p {
+    /* Define el tamaño de la fuente de los párrafos dentro de los elementos adicionales */
     font-size: 14px;
+    /* Añade un margen inferior de 10px a los párrafos dentro de los elementos adicionales */
     margin-bottom: 10px;
+    /* Define el color del texto de los párrafos dentro de los elementos adicionales */
     color: #010101;
 }
 
 
 .informacion {
-
+    /* Define el ancho como el 100% del contenedor principal */
     width: 100%;
+    /* Centra el texto dentro del contenedor */
     text-align: center;
+    /* Define el tamaño de la fuente como 2em */
     font-size: 2em;
+    /* Añade un margen de 20px alrededor del contenedor */
     margin: 20px;
+    /* Define el color del texto */
     color: #f2e80e;
+    /* Utiliza un diseño flexible */
     display: flex;
+    /* Permite que los elementos se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
+    /* Centra los elementos dentro del contenedor */
     justify-content: center;
-
 }
 
 .eslogan-del-gym {
+    /* Utiliza un diseño flexible */
     display: flex;
+    /* Centra horizontalmente los elementos dentro del contenedor */
     justify-content: center;
+    /* Centra verticalmente los elementos dentro del contenedor */
     align-items: center;
+    /* Añade un margen superior de 25px */
     margin-top: 25px;
-
-
 }
 
 .eslogan-del-gym h2 {
+    /* Utiliza un diseño de flexión en línea */
     display: inline-flex;
+    /* Añade un relleno de 10px vertical y 20px horizontal */
     padding: 10px 20px;
+    /* Define el tamaño de la fuente como 28px */
     font-size: 28px;
+    /* Define el color del texto */
     color: #010101;
+    /* Define el color de fondo */
     background-color: #f2e80d;
+    /* Elimina la decoración del texto */
     text-decoration: none;
+    /* Redondea las esquinas */
     border-radius: 5px;
-    box-shadow: 0 4px 6px #f2e80d
+    /* Añade una sombra al contenedor */
+    box-shadow: 0 4px 6px #f2e80d;
 }
 
 .ubicacion {
+    /* Añade un relleno de 40px alrededor del contenedor */
     padding: 40px 40px;
+    /* Centra el texto dentro del contenedor */
     text-align: center;
+    /* Define el color de fondo */
     background-color: #212121;
 }
 
 .texto-ubicacion {
+    /* Añade un margen inferior de 20px al contenedor */
     margin-bottom: 20px;
 }
 
 .mapa {
+    /* Utiliza un diseño flexible */
     display: flex;
+    /* Centra horizontalmente los elementos dentro del contenedor */
     justify-content: center;
+    /* Centra verticalmente los elementos dentro del contenedor */
     align-items: center;
 }
 
 iframe {
-
+    /* Redondea las esquinas del iframe */
     border-radius: 10px;
+    /* Define el ancho como el 100% del contenedor principal */
     width: 100%;
+    /* Define el ancho máximo como 600px */
     max-width: 600px;
 }
 
 .hamburger-menu {
+    /* Oculta el menú hamburguesa por defecto */
     display: none;
+    /* Define el tamaño de la fuente como 24px */
     font-size: 24px;
+    /* Define el color del texto como blanco */
     color: white;
+    /* Cambia el cursor al pasar por encima del menú hamburguesa */
     cursor: pointer;
 }
 
 #toggle-menu {
+    /* Oculta el menú de alternancia por defecto */
     display: none;
 }
 
 /*ACA AGREGAR MEDIAS QUERYS SI USA*/
 
 
-
 @media (max-width: 1115px) {
+    /* Oculta los enlaces de navegación por defecto */
     .nav-links {
         display: none;
+        /* Configura la dirección de los elementos a columna */
         flex-direction: column;
+        /* Define el ancho del contenedor de navegación como el 100% */
         width: 100%;
+        /* Cambia el color de fondo a negro */
         background-color: #000;
     }
 
+    /* Establece el color de fondo del encabezado */
     header {
         background-color: #010101;
     }
 
+    /* Configura el contenedor de la barra de navegación */
     .navbar-container {
         display: flex;
+        /* Espacia los elementos uniformemente */
         justify-content: space-between;
+        /* Cambia el color de fondo a negro */
         background-color: #000;
     }
 
+    /* Establece la apariencia de los enlaces de navegación */
     .nav-links a {
         text-align: center;
         padding: 10px;
-
     }
 
+    /* Muestra el menú hamburguesa */
     .hamburger-menu {
         display: block;
         margin-right: 10px;
     }
 
-    #toggle-menu:checked+.hamburger-menu+.nav-links {
+    /* Muestra los enlaces de navegación cuando el menú hamburguesa está activado */
+    #toggle-menu:checked + .hamburger-menu + .nav-links {
         display: flex;
     }
 }
 
+
 /*CSS de Servicios*/
 .membresias_container {
+    /* Define la imagen de fondo para el contenedor de membresías */
     background-image: url(https://img.freepik.com/foto-gratis/gimnasio-equipo-ciclismo-indoor_23-2149270210.jpg?t=st=1718333472~exp=1718337072~hmac=8d5aa743761024dc5dda80bcf4722e9f2387233fca174ca4455445fa2c407b1c&w=740);
-    background-size: cover;
-    display: flex;
-
-    flex-wrap: wrap;
-
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 .grupales-container {
+    /* Define la imagen de fondo para el contenedor de actividades grupales */
     background-image: url(https://img.freepik.com/foto-gratis/par-jovenes-boxeadores-tiene-competencia-ring-estudio-lucha_613910-6004.jpg?t=st=1718338654~exp=1718342254~hmac=b941789779e0c343f505e935509f34886554e41eb33b3b18a5dfad3b8aba0d1f&w=740);
-    background-size: cover;
-    display: flex;
-
-    flex-wrap: wrap;
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 .Opaco {
-    margin-top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.788);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-
+    margin-top: 0; /* Elimina el margen superior */
+    height: 100%; /* Establece la altura al 100% del contenedor padre */
+    width: 100%; /* Establece el ancho al 100% del contenedor padre */
+    background-color: rgba(0, 0, 0, 0.788); /* Establece un color de fondo semi-transparente */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
-.plus {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-
-    width: 140px;
-    border-style: solid;
-    border-color: #f4f4f4;
-    background-color: transparent
+/* Estilos para los botones */
+.plus, .kick, .kick-gym, .Power, .basic, .Horarioreducido {
+    text-align: center; /* Centra el texto dentro del botón */
+    margin-top: 1em; /* Establece un margen superior de 1em */
+    margin-bottom: 1em; /* Establece un margen inferior de 1em */
+    margin-left: 1em; /* Establece un margen izquierdo de 1em */
+    width: 140px; /* Establece un ancho fijo de 140px */
+    border-style: solid; /* Establece un borde sólido */
+    border-color: #f4f4f4; /* Establece el color del borde */
+    background-color: transparent; /* Establece el fondo transparente */
 }
 
-.kick {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    width: 140px;
-    border-style: solid;
-    border-color: #f4f4f4;
-    background-color: transparent
-}
-.kick p{
-    font-size: 15px;
-    font-weight: 300;
-    color: #f4f4f4;
-}
-.kick-gym p{
-    font-size: 15px;
-    font-weight: 300;
-    color: #f4f4f4;
-}
-.Power p{
-    font-size: 15px;
-    font-weight: 300;
-    color: #f4f4f4;
-}
-.kick-gym{
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    width: 140px;
-    border-style: solid;
-    border-color: #f4f4f4;
-    background-color: transparent
-}
-.Power{
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    width: 140px;
-    border-style: solid;
-    border-color: #f4f4f4;
-    background-color: transparent
-}
-.basic {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    width: 140px;
-    border-style: solid;
-    border-color: #f4f4f4;
-    background-color: transparent
-}
-
-.Horarioreducido {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    width: 140px;
-    border-style: solid;
-    border-color: #f4f4f4;
-    background-color: transparent
+/* Estilos para el texto dentro de los botones */
+.plus p, .kick p, .kick-gym p, .Power p, .basic p, .Horarioreducido p {
+    font-size: 15px; /* Tamaño de fuente */
+    font-weight: 300; /* Grosor de la fuente */
+    color: #f4f4f4; /* Color del texto */
 }
 
 
-
+/* Estilos para la clase .precio */
 .precio {
-    margin: 0;
-    border-left: none;
-    border-bottom: none;
-
+    margin: 0; /* Elimina el margen exterior */
+    border-left: none; /* Elimina el borde izquierdo */
+    border-bottom: none; /* Elimina el borde inferior */
 }
 
+/* Estilos para el contenedor .Horarioreducido que contiene párrafos */
 .Horarioreducido p {
-    font-size: 15px;
-    font-weight: 300;
-    color: #f4f4f4;
+    font-size: 15px; /* Tamaño de fuente */
+    font-weight: 300; /* Grosor de la fuente (300 es ligero) */
+    color: #f4f4f4; /* Color del texto */
 }
 
+/* Estilos para el contenedor .basic que contiene párrafos */
 .basic p {
-    font-size: 15px;
-    font-weight: 300;
-    color: #f4f4f4;
+    font-size: 15px; /* Tamaño de fuente */
+    font-weight: 300; /* Grosor de la fuente (300 es ligero) */
+    color: #f4f4f4; /* Color del texto */
 }
 
+/* Estilos para el contenedor .plus que contiene párrafos */
 .plus p {
-    font-size: 15px;
-    font-weight: 300;
-    color: #f4f4f4;
+    font-size: 15px; /* Tamaño de fuente */
+    font-weight: 300; /* Grosor de la fuente (300 es ligero) */
+    color: #f4f4f4; /* Color del texto */
 }
 
+/* Estilos para elementos <span> dentro del documento */
 span {
-    display: block;
-    color: #f2e80d;
+    display: block; /* Hace que el elemento <span> sea un bloque */
+    color: #f2e80d; /* Color del texto */
 }
 
+/* Estilos para el título .memb-title */
 .memb-title {
-    margin-top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #000a;
-    text-align: center;
+    margin-top: 0; /* Elimina el margen superior */
+    height: 100%; /* Altura del elemento */
+    width: 100%; /* Ancho del elemento */
+    background-color: #000a; /* Color de fondo */
+    text-align: center; /* Alineación del texto */
+}
 
+/* Estilos para el título .grup-title */
+.grup-title {
+    margin-top: 0; /* Elimina el margen superior */
+    height: 100%; /* Altura del elemento */
+    width: 100%; /* Ancho del elemento */
+    background-color: #000a; /* Color de fondo */
+    text-align: center; /* Alineación del texto */
 }
-.grup-title{
-    margin-top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #000a;
-    text-align: center;
-}
+
+/* Estilos para el título <h3> dentro de .memb-title */
 .memb-title h3 {
-    color: #f2e80d;
-    font-size: 30px;
+    color: #f2e80d; /* Color del texto */
+    font-size: 30px; /* Tamaño de fuente */
 }
-.gruop-title{
-    color: #f2e80d;
-    font-size: 30px;
+
+/* Estilos para el título <h3> dentro de .gruop-title (¿debería ser .grup-title?) */
+.gruop-title {
+    color: #f2e80d; /* Color del texto */
+    font-size: 30px; /* Tamaño de fuente */
 }
