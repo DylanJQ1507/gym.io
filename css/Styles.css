@@ -77,7 +77,7 @@ ul li a {
 
 ul li a:hover {
     color: yellow;
-    text-decoration: overline underline;
+
 }
 
 .Banner {
@@ -324,7 +324,7 @@ video {
     width: 98%;
     bottom: 0px;
     margin-top: 300px;
-  font-family: sans-serif;
+    font-family: sans-serif;
 
 }
 
@@ -419,7 +419,7 @@ video {
 
 form {
     background-color: #212121;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     max-width: 500px;
     margin: auto;
     margin-top: 50PX;
@@ -427,7 +427,10 @@ form {
     border-radius: 8px;
 }
 
-input,textarea, select, button {
+input,
+textarea,
+select,
+button {
     width: 100%;
     box-sizing: border-box;
     padding: 6px 8px;
@@ -438,40 +441,46 @@ input,textarea, select, button {
     color: #f4f4f4;
     margin-top: 6px 0;
 }
-option{
+
+option {
     background-color: #212121;
 }
-fieldset{
- margin: 20px 0;
- border: 2px solid #f2e80d;
- border-radius: 5px;
- padding: 0 20px 20px 20px;
+
+fieldset {
+    margin: 20px 0;
+    border: 2px solid #f2e80d;
+    border-radius: 5px;
+    padding: 0 20px 20px 20px;
 }
-legend{
+
+legend {
     padding: 0 6px;
     font-family: Montserrat;
     color: #f4f4f4;
 }
-textarea{
-resize: none;
-min-width: 100%;
-min-height: 100px;
-max-height: 200px;
-font-family: sans-serif;
+
+textarea {
+    resize: none;
+    min-width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    font-family: sans-serif;
 }
 
 .form-item {
     padding: 10px 20px;
 }
-label{
+
+label {
     font-size: 0.9em;
     font-weight: 500;
     font-family: Montserrat;
     color: #f4f4f4;
     line-height: 2;
 }
-.check{
-   width: auto; 
+
+.check {
+    width: auto;
 }
 
 .boton {
@@ -479,7 +488,7 @@ label{
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-  
+
 }
 
 .boton .contacto {
@@ -489,20 +498,19 @@ label{
 }
 
 .boton .texto a {
-   display: inline-flex;
-    padding: 10px 20px;
+    display: inline-flex;
+    padding: 20px 40px;
     font-size: 18px;
     color: #010101;
-    background-color: #f2e80d; 
+    background-color: #f2e80d;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     box-shadow: 0 4px 6px #f2e80d
-   
 }
 
 .boton .texto a:hover {
-    background-color: #f4f4f4; 
-    transform: translateY(-2px); 
+    background-color: #f4f4f4;
+    transform: translateY(-2px);
 }
 
 
@@ -513,15 +521,15 @@ label{
 
 
 .ubicacion {
-    
+
     padding: 40px 20px;
-   
-    
+
+
 }
 
 
 
-.texto-ubicacion  h2{
+.texto-ubicacion h2 {
     color: #f2e80d;
     font-size: 30px;
     margin-bottom: 20px;
@@ -546,7 +554,7 @@ label{
     color: #f2e80d;
     font-size: 30px;
     margin-bottom: 20px;
-    
+
 }
 
 .adicional-container {
@@ -562,10 +570,8 @@ label{
     border-radius: 10px;
     max-width: 400px;
     text-align: center;
-    
+
     flex: 1 1 300px
-    
-    
 }
 
 .adicional img {
@@ -605,20 +611,19 @@ label{
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-    
-  
+
+
 }
 
 .eslogan-del-gym h2 {
-   display: inline-flex;
+    display: inline-flex;
     padding: 10px 20px;
     font-size: 28px;
     color: #010101;
-    background-color: #f2e80d; 
+    background-color: #f2e80d;
     text-decoration: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     box-shadow: 0 4px 6px #f2e80d
-   
 }
 
 .ubicacion {
@@ -638,13 +643,11 @@ label{
 }
 
 iframe {
-   
+
     border-radius: 10px;
     width: 100%;
     max-width: 600px;
 }
-
-/*ACA AGREGAR MEDIAS QUERYS SI USA*/
 
 .hamburger-menu {
     display: none;
@@ -657,32 +660,204 @@ iframe {
     display: none;
 }
 
+/*ACA AGREGAR MEDIAS QUERYS SI USA*/
+
+
+
 @media (max-width: 1115px) {
     .nav-links {
-        display:  none;
+        display: none;
         flex-direction: column;
         width: 100%;
-       background-color: #000;
+        background-color: #000;
     }
-    header{
+
+    header {
         background-color: #010101;
     }
-.navbar-container{
-    display: flex;
- justify-content: space-between;
- background-color: #000;
-}
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #000;
+    }
+
     .nav-links a {
         text-align: center;
         padding: 10px;
-        
+
     }
 
     .hamburger-menu {
         display: block;
+        margin-right: 10px;
     }
 
-    #toggle-menu:checked + .hamburger-menu + .nav-links {
+    #toggle-menu:checked+.hamburger-menu+.nav-links {
         display: flex;
     }
+}
+
+/*CSS de Servicios*/
+.membresias_container {
+    background-image: url(https://img.freepik.com/foto-gratis/gimnasio-equipo-ciclismo-indoor_23-2149270210.jpg?t=st=1718333472~exp=1718337072~hmac=8d5aa743761024dc5dda80bcf4722e9f2387233fca174ca4455445fa2c407b1c&w=740);
+    background-size: cover;
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+.grupales-container {
+    background-image: url(https://img.freepik.com/foto-gratis/par-jovenes-boxeadores-tiene-competencia-ring-estudio-lucha_613910-6004.jpg?t=st=1718338654~exp=1718342254~hmac=b941789779e0c343f505e935509f34886554e41eb33b3b18a5dfad3b8aba0d1f&w=740);
+    background-size: cover;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.Opaco {
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.plus {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    width: 140px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: transparent
+}
+
+.kick {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 140px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: transparent
+}
+.kick p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+.kick-gym p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+.Power p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+.kick-gym{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 140px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: transparent
+}
+.Power{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 140px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: transparent
+}
+.basic {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 140px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: transparent
+}
+
+.Horarioreducido {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    width: 140px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: transparent
+}
+
+
+
+.precio {
+    margin: 0;
+    border-left: none;
+    border-bottom: none;
+
+}
+
+.Horarioreducido p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+
+.basic p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+
+.plus p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #f4f4f4;
+}
+
+span {
+    display: block;
+    color: #f2e80d;
+}
+
+.memb-title {
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+    text-align: center;
+
+}
+.grup-title{
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+    text-align: center;
+}
+.memb-title h3 {
+    color: #f2e80d;
+    font-size: 30px;
+}
+.gruop-title{
+    color: #f2e80d;
+    font-size: 30px;
 }
