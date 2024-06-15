@@ -1087,6 +1087,8 @@ span {
     background-color: transparent; /* Pone el color de fondo a la respuesta de la pregunta*/
     font-size: 18px ;/*Asigna el tamaño de fuente a 18 respecto a la respuesta*/
     color: #f2e80d;
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
     
     
 }
@@ -1099,6 +1101,8 @@ span {
     cursor: pointer; /* Cambiar el cursor a mano */
     font-size: 23px; /*Asigna el tamaño de fuente a 23 respecto a la pregunta*/
     color: #999da0;
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 /* Estilo para detalles abiertos dentro de la sección de preguntas */
@@ -1106,6 +1110,8 @@ span {
 
     
     font-weight: bold; /* Texto en negrita */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
  .preg-title {
@@ -1134,6 +1140,7 @@ span {
     display: flex; /* Utiliza un diseño flexible para los elementos internos */
     justify-content: center; /* Centra horizontalmente los elementos */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    
    
 }
 
@@ -1150,6 +1157,8 @@ span {
     border-style: solid; /* Estilo del borde sólido */
     border-color: #f4f4f4; /* Color del borde gris claro */
     background-color: transparent; /* Fondo transparente */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
     
 }
 
@@ -1159,6 +1168,8 @@ span {
     font-size: 15px; /* Tamaño de fuente de 15 píxeles */
     font-weight: 300; /* Peso de la fuente normal (300) */
     color: #f4f4f4; /* Color del texto gris claro */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
     
 }
 
