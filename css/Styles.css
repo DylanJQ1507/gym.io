@@ -975,6 +975,7 @@ iframe {
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
+
 /* Estilos para los botones */
 .plus, .kick, .kick-gym, .Power, .basic, .Horarioreducido {
     text-align: center; /* Centra el texto dentro del botón */
@@ -1038,6 +1039,7 @@ span {
     text-align: center; /* Alineación del texto */
 }
 
+
 /* Estilos para el título .grup-title */
 .grup-title {
     margin-top: 0; /* Elimina el margen superior */
@@ -1053,8 +1055,123 @@ span {
     font-size: 30px; /* Tamaño de fuente */
 }
 
-/* Estilos para el título <h3> dentro de .gruop-title (¿debería ser .grup-title?) */
+/* Estilos para el título <h3> dentro de .gruop-title  */
 .gruop-title {
     color: #f2e80d; /* Color del texto */
     font-size: 30px; /* Tamaño de fuente */
 }
+
+
+
+
+
+
+
+.preguntas_container {
+    /* Define la imagen de fondo para el contenedor de membresías */
+    background-image: url(https://img.freepik.com/foto-gratis/gimnasio-equipo-ciclismo-indoor_23-2149270210.jpg?t=st=1718333472~exp=1718337072~hmac=8d5aa743761024dc5dda80bcf4722e9f2387233fca174ca4455445fa2c407b1c&w=740);
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+
+ 
+}
+
+ 
+
+
+/* Estilo para cada pregunta */
+.Preguntas details {
+    margin-bottom: 10px; /* Espacio entre cada pregunta */
+    
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Evitar que el contenido se desborde */
+    background-color: transparent; /* Pone el color de fondo a la respuesta de la pregunta*/
+    font-size: 18px ;/*Asigna el tamaño de fuente a 18 respecto a la respuesta*/
+    color: #f2e80d
+    
+}
+
+/* Estilo para el resumen de cada pregunta */
+.Preguntas summary {
+    padding: 10px; /* Espaciado interno del resumen */
+    font-weight: bold; /* Negrita para el título de la pregunta */
+    background-color: transparent; /* Color de fondo del resumen */
+    cursor: pointer; /* Cambiar el cursor a mano */
+    font-size: 23px; /*Asigna el tamaño de fuente a 23 respecto a la pregunta*/
+    color: #999da0;
+}
+
+/* Estilo para detalles abiertos dentro de la sección de preguntas */
+.Preguntas details[open] {
+
+    
+    font-weight: bold; /* Texto en negrita */
+}
+
+ .preg-title {
+    margin-top: 0; /* Elimina el margen superior */
+    height: 100%; /* Altura del elemento */
+    width: 100%; /* Ancho del elemento */
+    background-color: #000a; /* Color de fondo */
+    text-align: center; /* Alineación del texto */
+}
+
+
+/* Estilos para el título <h3> dentro de .preg-title */
+ .preg-title h3 {
+    color: #f2e80d; /* Color del texto */
+    font-size: 30px; /* Tamaño de fuente */
+}
+
+ .pregunta {
+    margin-top: 0; /* Elimina el margen superior */
+    height: 100%; /* Establece la altura al 100% del contenedor padre */
+    width: 100%; /* Establece el ancho al 100% del contenedor padre */
+    background-color: rgba(0, 0, 0, 0.788); /* Establece un color de fondo semi-transparente */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+}
+
+
+/* Estilos para las clases .preguntauno, .preguntados, .preguntatres y .preguntacuatro */
+
+.preguntauno, 
+.preguntados, 
+.preguntatres, 
+.preguntacuatro,
+.preguntacinco,
+.preguntaseis,
+.preguntasiete,
+.preguntaocho {
+    /* Márgenes alrededor de cada elemento */
+    margin-top: 1em; /* Margen superior de 1 em */
+    margin-bottom: 1em; /* Margen inferior de 1 em */
+    margin-left: 1em; /* Margen izquierdo de 1 em */
+    width: 400px; /* Ancho fijo de 400 píxeles */
+    border-style: solid; /* Estilo del borde sólido */
+    border-color: #f4f4f4; /* Color del borde gris claro */
+    background-color: transparent; /* Fondo transparente */
+    
+}
+
+/* Estilos para los párrafos dentro de las clases .preguntauno, .preguntados, .preguntatres y .preguntacuatro */
+.preguntauno p, 
+.preguntados p, 
+.preguntatres p, 
+.preguntacuatro p,
+.preguntacinco p,
+.preguntaseis p,
+.preguntasiete p,
+.preguntaocho {
+    font-size: 15px; /* Tamaño de fuente de 15 píxeles */
+    font-weight: 300; /* Peso de la fuente normal (300) */
+    color: #f4f4f4; /* Color del texto gris claro */
+    
+}
+
+
+
+
+
