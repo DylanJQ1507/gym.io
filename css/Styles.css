@@ -1138,7 +1138,7 @@ span {
 }
 
 
-/* Estilos para las clases .preguntauno, .preguntados, .preguntatres y .preguntacuatro */
+/* Estilos para las clases preguntas */
 
 .preguntas
 {
@@ -1153,7 +1153,7 @@ span {
     
 }
 
-/* Estilos para los párrafos dentro de las clases .preguntauno, .preguntados, .preguntatres y .preguntacuatro */
+/* Estilos para los párrafos dentro de las clases .preguntas*/
 .preguntas p
  {
     font-size: 15px; /* Tamaño de fuente de 15 píxeles */
