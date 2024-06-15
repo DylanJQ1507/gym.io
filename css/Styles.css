@@ -1069,7 +1069,7 @@ span {
 
 .preguntas_container {
     /* Define la imagen de fondo para el contenedor de membresías */
-    background-image: url(https://img.freepik.com/foto-gratis/mancuernas-primer-plano-entorno-gimnasio-detras_91128-4625.jpg?t=st=1718419195~exp=1718422795~hmac=5d75ae30406c53694f332ea917310193916629625a4ea0f49945afbc418fe806&w=1480);
+    background-image: url(https://img.freepik.com/foto-gratis/tiro-medio-sonriente-hombre-mujer-gimnasio_23-2148768878.jpg?t=st=1718419475~exp=1718423075~hmac=95f70a8bd279717deb12beb9d03cbe997fd0cabdbb455bfb91fa5f7c843ef6d5&w=1380);
     background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
     display: flex; /* Utiliza un diseño flexible para los elementos internos */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
@@ -1137,14 +1137,8 @@ span {
 
 /* Estilos para las clases .preguntauno, .preguntados, .preguntatres y .preguntacuatro */
 
-.preguntauno, 
-.preguntados, 
-.preguntatres, 
-.preguntacuatro,
-.preguntacinco,
-.preguntaseis,
-.preguntasiete,
-.preguntaocho {
+.preguntas
+{
     /* Márgenes alrededor de cada elemento */
     margin-top: 1em; /* Margen superior de 1 em */
     margin-bottom: 1em; /* Margen inferior de 1 em */
@@ -1157,14 +1151,8 @@ span {
 }
 
 /* Estilos para los párrafos dentro de las clases .preguntauno, .preguntados, .preguntatres y .preguntacuatro */
-.preguntauno p, 
-.preguntados p, 
-.preguntatres p, 
-.preguntacuatro p,
-.preguntacinco p,
-.preguntaseis p,
-.preguntasiete p,
-.preguntaocho {
+.preguntas p
+ {
     font-size: 15px; /* Tamaño de fuente de 15 píxeles */
     font-weight: 300; /* Peso de la fuente normal (300) */
     color: #f4f4f4; /* Color del texto gris claro */
