@@ -1159,15 +1159,10 @@ span {
     flex-direction: column; /* Distribuye en columna */
 }
 
-/* Para pantallas pequeñas (menos de 768px) */
-@media (max-width: 768px) {
-   .preguntas {
-        width: 90%; /* Ancho relativo del 90% del contenedor padre */
-    }
-}
+
 
 /* Para pantallas muy pequeñas (menos de 480px) */
-@media (max-width: 480px) {
+@media (max-width: 1115px) {
    .preguntas {
         width: 100%; /* Ancho relativo del 100% del contenedor padre */
     }
@@ -1184,6 +1179,10 @@ span {
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
     
 }
+
+
+ 
+
 
 
 
