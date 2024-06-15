@@ -1073,8 +1073,6 @@ span {
     background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
     display: flex; /* Utiliza un diseño flexible para los elementos internos */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
-
- 
 }
 
  
@@ -1088,7 +1086,8 @@ span {
     overflow: hidden; /* Evitar que el contenido se desborde */
     background-color: transparent; /* Pone el color de fondo a la respuesta de la pregunta*/
     font-size: 18px ;/*Asigna el tamaño de fuente a 18 respecto a la respuesta*/
-    color: #f2e80d
+    color: #f2e80d;
+    
     
 }
 
@@ -1115,6 +1114,9 @@ span {
     width: 100%; /* Ancho del elemento */
     background-color: #000a; /* Color de fondo */
     text-align: center; /* Alineación del texto */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
 }
 
 
@@ -1132,6 +1134,7 @@ span {
     display: flex; /* Utiliza un diseño flexible para los elementos internos */
     justify-content: center; /* Centra horizontalmente los elementos */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+   
 }
 
 
@@ -1158,6 +1161,8 @@ span {
     color: #f4f4f4; /* Color del texto gris claro */
     
 }
+
+
 
 
 
