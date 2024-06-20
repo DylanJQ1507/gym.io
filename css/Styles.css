@@ -1073,8 +1073,8 @@ span {
 
 
 .preguntas_container {
-    /* Define la imagen de fondo para el contenedor de membresías */
-    background-image: url(https://img.freepik.com/free-photo/medium-shot-woman-with-personal-trainer_23-2148768876.jpg?t=st=1718805450~exp=1718809050~hmac=9379e1cb8fe5799244ac20e0a902b2a3ab5b437efbeac32576503e7cffc80e63&w=1380);
+    /* Define la imagen de fondo para el contenedor de preguntas */
+    background-image: url(https://img.freepik.com/foto-gratis/grupo-personas-sentadas-piso-mirando-telefono-inteligente-gimnasio_23-2147949632.jpg?t=st=1718844932~exp=1718848532~hmac=1b4e54debd223c1b3432c59be872a243830cd107befced09ad425ea38dabad38&w=1380);
     background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
     display: flex; /* Utiliza un diseño flexible para los elementos internos */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
