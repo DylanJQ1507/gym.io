@@ -1291,9 +1291,68 @@ span {
 
 
 
+.contenido-lateral{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    float: right;
+    background-image: url(https://img.freepik.com/foto-gratis/persona-atletica-haciendo-ejercicio-entrenando_23-2150989827.jpg?t=st=1718910621~exp=1718914221~hmac=dfd082f25e13fd5daca7611749bb0833b235ba47b116ec8c8ca8fc720c886aed&w=740);
+    background-size: cover;
+    height: 500px;
+}
+
+.aside {
+    width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 0 #f4f4f4;
+    background-size: cover;
+  
+}
+.OpacoLateral {
+    margin-top: 0; /* Elimina el margen superior */
+    height: 100%; /* Establece la altura al 100% del contenedor padre */
+    width: 100%; /* Establece el ancho al 100% del contenedor padre */
+    background-color: #00000059; /* Establece un color de fondo semi-transparente */
+    display: flex; /* Utiliza un diseño flexible para los elementos internos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+}
+
+
+@media (max-width: 768px) { 
+    .contenido-lateral {
+      margin: 0 auto;
+      float: none;  
+    }
+  }
+
+.blog h3 {
+    font-size: 1.2em;
+    margin: 0;
+    
+}
+
+.blog h3 a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.blog h3 a:hover {
+    color: #f2e80d;
+}
 
 
 
-
+.blog{
+    text-align: center; /* Centra el texto dentro del botón */
+    margin-top: 1em; /* Establece un margen superior de 1em */
+    margin-bottom: 1em; /* Establece un margen inferior de 1em */
+    margin-left: 1em; /* Establece un margen izquierdo de 1em */
+    width: 140px; /* Establece un ancho fijo de 140px */
+    background-color: transparent; /* Establece el fondo transparente */
+}
 
 
