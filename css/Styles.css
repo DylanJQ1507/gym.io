@@ -1175,10 +1175,8 @@ span {
     }
 
 aside{
-   display: block; /* Asegúrate de que el aside se muestre */
-        width: 80%; /* Ajusta este ancho según sea necesario */
-        margin: 0 auto; /* Centra el aside */
-        text-align: center; /* Opcional: centra el contenido del aside */
+   display: none; 
+        
 }
 
 /* Estilos para los párrafos dentro de las clases .preguntas*/
