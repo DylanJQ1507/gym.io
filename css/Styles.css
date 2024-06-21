@@ -919,7 +919,7 @@ iframe {
         /* Cambia el color de fondo a negro */
         background-color: #000;
     }
-
+     
     /* Establece el color de fondo del encabezado */
     header {
         background-color: #010101;
@@ -1174,7 +1174,9 @@ span {
         width: 50%; /* Ancho relativo del 100% del contenedor padre */
     }
 
-
+aside{
+    display: none;
+}
 
 /* Estilos para los párrafos dentro de las clases .preguntas*/
 .preguntas p
@@ -1291,68 +1293,70 @@ span {
 
 
 
-.contenido-lateral{
+aside{
+float: right;
+width: 500px;
+justify-content: center;
+text-align: center;
+margin-top: 10px;
+box-shadow: 0 0 4px #f2e80e;
+margin-right: 1em;
+color: #cfc4c4;
+font-family: montserrat;
+font-weight: 500;
+font-size: 20px;
+background-image:url(https://img.freepik.com/foto-gratis/persona-atletica-haciendo-ejercicio-entrenando_23-2150989827.jpg?t=st=1718941061~exp=1718944661~hmac=3b53fa21e44bb6792e3bdfbafcc559a68e2ec3bfa87e147b27cce61cb65c18f2&w=740) ;
+background-size: cover;
+position: fixed;
+right: 1px;
+top: 230px;
+}
+
+.opaco{
+        margin-top: 0; /* Elimina el margen superior */
+        height: 100%; /* Establece la altura al 100% del contenedor padre */
+        width: 100%; /* Establece el ancho al 100% del contenedor padre */
+        background-color: #000000c9; /* Establece un color de fondo semi-transparente */
+}
+.aside{
+    padding: 10px;
+   
+}
+.naranja{
+    width: 200px;
+}
+.blogs{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
-    float: right;
-    background-image: url(https://img.freepik.com/foto-gratis/persona-atletica-haciendo-ejercicio-entrenando_23-2150989827.jpg?t=st=1718910621~exp=1718914221~hmac=dfd082f25e13fd5daca7611749bb0833b235ba47b116ec8c8ca8fc720c886aed&w=740);
-    background-size: cover;
-    height: 500px;
+    gap: 2rem;
+
+
 }
-
-.aside {
-    width: 250px;
-    max-width: 300px;
-    padding: 20px;
-    box-sizing: border-box;
-    box-shadow: 0 0 15px 0 #f4f4f4;
-    background-size: cover;
-  
+h4{
+    font-family: Anton;
+    font-weight: 100;
+    color:#999da0;
+    font-size: 25px;
 }
-.OpacoLateral {
-    margin-top: 0; /* Elimina el margen superior */
-    height: 100%; /* Establece la altura al 100% del contenedor padre */
-    width: 100%; /* Establece el ancho al 100% del contenedor padre */
-    background-color: #00000059; /* Establece un color de fondo semi-transparente */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    justify-content: center; /* Centra horizontalmente los elementos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+.blog-container{
+    box-shadow: 0 0 10px #f2e80e;
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f4f4;
+margin-left: 10px;
+border-radius: 4px;
+
+background-image: url(https://img.freepik.com/fotos-premium/kettlebell-naranja-elegante-contra-fondo-oscuro-gimnasio-esenciales-entrenamiento-fuerza_500824-8.jpg?w=360);
 }
-
-
-@media (max-width: 768px) { 
-    .contenido-lateral {
-      margin: 0 auto;
-      float: none;  
-    }
-  }
-
-.blog h3 {
-    font-size: 1.2em;
-    margin: 0;
-    
+.blog-container img{
+    margin-top: 10px;
+    box-shadow:0 0 10px #f2e80e;
 }
-
-.blog h3 a {
-    text-decoration: none;
-    color: #fff;
-    
+.blog-container p{
+   font-weight: 400; 
+   font-size: small;
 }
-
-.blog h3 a:hover {
-    color: #f2e80d;
+.blog-content{
+    padding: 10px;
+    padding-bottom: 5px;
 }
-
-
-
-.blog{
-    text-align: center; /* Centra el texto dentro del botón */
-    margin-top: 1em; /* Establece un margen superior de 1em */
-    margin-bottom: 1em; /* Establece un margen inferior de 1em */
-    margin-left: 1em; /* Establece un margen izquierdo de 1em */
-    width: 140px; /* Establece un ancho fijo de 140px */
-    background-color: transparent; /* Establece el fondo transparente */
-}
-
-
