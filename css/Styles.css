@@ -1296,21 +1296,21 @@ aside{
 
 aside{
 
-float: right;
-width: 500px;
-justify-content: center;
-text-align: center;
-margin-top: 25px;
-box-shadow: 0 0 4px #f2e80e;
-margin-right: 1em;
-font-family: montserrat;
-font-weight: 500;
-font-size: 20px;
-background-image:url(https://img.freepik.com/foto-gratis/persona-atletica-haciendo-ejercicio-entrenando_23-2150989827.jpg?t=st=1718941061~exp=1718944661~hmac=3b53fa21e44bb6792e3bdfbafcc559a68e2ec3bfa87e147b27cce61cb65c18f2&w=740) ;
-background-size: cover;
-position: fixed;
-right: 1px;
-top: 230px;
+    float: right;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    box-shadow: 0 0 4px #f2e80e;
+    margin-right: 1em;
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    background-image:url(https://img.freepik.com/foto-gratis/persona-atletica-haciendo-ejercicio-entrenando_23-2150989827.jpg?t=st=1718941061~exp=1718944661~hmac=3b53fa21e44bb6792e3bdfbafcc559a68e2ec3bfa87e147b27cce61cb65c18f2&w=740) ;
+    background-size: cover;
+    position: fixed;
+    right: 1px;
+    top: 230px;
 }
 
 
