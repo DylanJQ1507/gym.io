@@ -1295,11 +1295,12 @@ aside{
 
 
 aside{
+
 float: right;
 width: 500px;
 justify-content: center;
 text-align: center;
-margin-top: 10px;
+margin-top: 25px;
 box-shadow: 0 0 4px #f2e80e;
 margin-right: 1em;
 font-family: montserrat;
