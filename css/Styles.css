@@ -1302,7 +1302,6 @@ text-align: center;
 margin-top: 10px;
 box-shadow: 0 0 4px #f2e80e;
 margin-right: 1em;
-color: #cfc4c4;
 font-family: montserrat;
 font-weight: 500;
 font-size: 20px;
@@ -1311,6 +1310,21 @@ background-size: cover;
 position: fixed;
 right: 1px;
 top: 230px;
+}
+
+
+aside a{
+    color: #cfc4c4; 
+    text-decoration: none;
+    font-family: montserrat;
+    
+}
+
+aside a:hover{
+    color: #f2e80d; 
+    text-decoration: none;
+    font-family: montserrat;
+    
 }
 
 .opaco{
@@ -1330,8 +1344,7 @@ top: 230px;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
-
-
+    
 }
 h4{
     font-family: Anton;
@@ -1344,8 +1357,9 @@ h4{
     text-align: center;
     margin-top: 10px;
     color: #f4f4f4;
-margin-left: 10px;
-border-radius: 4px;
+    margin-left: 10px;
+    border-radius: 4px;
+    
 
 background-image: url(https://img.freepik.com/fotos-premium/kettlebell-naranja-elegante-contra-fondo-oscuro-gimnasio-esenciales-entrenamiento-fuerza_500824-8.jpg?w=360);
 }
