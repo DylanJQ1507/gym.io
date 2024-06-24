@@ -1603,3 +1603,64 @@ p{
     width: 70%;
     background-image: url(https://img.freepik.com/fotos-premium/kettlebell-naranja-elegante-contra-fondo-oscuro-gimnasio-esenciales-entrenamiento-fuerza_500824-8.jpg?w=360);
 }
+
+
+.blog-containerR{
+    box-shadow: 0 0 10px #f2e80e;
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f4f4;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 70%;
+    background-image: url(https://www.dir.cat/blog/wp-content/uploads/2019/04/test-rutina-musculacion.jpg);
+}
+
+.blog-containerJ{
+    box-shadow: 0 0 10px #f2e80e;
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f4f4;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 70%;
+    background-image: url(https://img.freepik.com/foto-gratis/grupo-personas-felices-sentados-piso-despues-entrenamiento_23-2147949631.jpg?t=st=1719260968~exp=1719264568~hmac=fefa71749b86bde29c1eb3fb2b13dd301d3612efd4910c92ccbc2ef1610a3389&w=1380);
+}
+
+.blog-containerM{
+    box-shadow: 0 0 10px #f2e80e;
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f4f4;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 70%;
+    background-image: url(https://img.freepik.com/foto-gratis/bicicleta-estatica_23-2148017333.jpg?t=st=1719261258~exp=1719264858~hmac=79c795e85f6718a356df487b471c3a961897e7a3fa6724d35264b89f7b021139&w=1380);
+}
+
+
+.blog-containerM img {
+    margin-top: 10px;
+    box-shadow: 0 0 10px #f2e80e;
+}
+.blog-containerJ img{
+    margin-top: 10px;
+    box-shadow: 0 0 10px #f2e80e;
+}
+.blog-containerM p {
+    font-weight: 500;
+    font-size: 15px;
+}
+.blog-containerJ p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.blog-containerR img{
+    margin-top: 10px;
+    box-shadow: 0 0 10px #f2e80e;
+}
+.blog-containerR p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
