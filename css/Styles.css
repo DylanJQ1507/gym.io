@@ -283,6 +283,7 @@ video {
 
 
 @keyframes slider {
+
     /* Define la animación 'slider' para el desplazamiento del carrusel */
     0% {
         margin-left: 0%;
@@ -406,11 +407,12 @@ video {
     /* Define el color del texto dentro de las cajas */
     color: #000;
 }
-.box p{
+
+.box p {
     font-size: 14px;
     /* Define el color del texto dentro de las cajas */
     color: #000;
-    font-family: montserrat; 
+    font-family: montserrat;
 }
 
 
@@ -909,6 +911,7 @@ iframe {
 
 
 @media (max-width: 1115px) {
+
     /* Oculta los enlaces de navegación por defecto */
     .nav-links {
         display: none;
@@ -919,7 +922,7 @@ iframe {
         /* Cambia el color de fondo a negro */
         background-color: #000;
     }
-     
+
     /* Establece el color de fondo del encabezado */
     header {
         background-color: #010101;
@@ -934,6 +937,7 @@ iframe {
         background-color: #000;
     }
 
+
     /* Establece la apariencia de los enlaces de navegación */
     .nav-links a {
         text-align: center;
@@ -947,7 +951,7 @@ iframe {
     }
 
     /* Muestra los enlaces de navegación cuando el menú hamburguesa está activado */
-    #toggle-menu:checked + .hamburger-menu + .nav-links {
+    #toggle-menu:checked+.hamburger-menu+.nav-links {
         display: flex;
     }
 }
@@ -957,113 +961,175 @@ iframe {
 .membresias_container {
     /* Define la imagen de fondo para el contenedor de membresías */
     background-image: url(https://img.freepik.com/foto-gratis/gimnasio-equipo-ciclismo-indoor_23-2149270210.jpg?t=st=1718333472~exp=1718337072~hmac=8d5aa743761024dc5dda80bcf4722e9f2387233fca174ca4455445fa2c407b1c&w=740);
-    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    background-size: cover;
+    /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 .grupales-container {
     /* Define la imagen de fondo para el contenedor de actividades grupales */
     background-image: url(https://img.freepik.com/foto-gratis/par-jovenes-boxeadores-tiene-competencia-ring-estudio-lucha_613910-6004.jpg?t=st=1718338654~exp=1718342254~hmac=b941789779e0c343f505e935509f34886554e41eb33b3b18a5dfad3b8aba0d1f&w=740);
-    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    background-size: cover;
+    /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 .Opaco {
-    margin-top: 0; /* Elimina el margen superior */
-    height: 100%; /* Establece la altura al 100% del contenedor padre */
-    width: 100%; /* Establece el ancho al 100% del contenedor padre */
-    background-color: #000000c9; /* Establece un color de fondo semi-transparente */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    justify-content: center; /* Centra horizontalmente los elementos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Establece la altura al 100% del contenedor padre */
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor padre */
+    background-color: #000000c9;
+    /* Establece un color de fondo semi-transparente */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    justify-content: center;
+    /* Centra horizontalmente los elementos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 
 /* Estilos para los botones */
-.plus, .kick, .kick-gym, .Power, .basic, .Horarioreducido {
-    text-align: center; /* Centra el texto dentro del botón */
-    margin-top: 1em; /* Establece un margen superior de 1em */
-    margin-bottom: 1em; /* Establece un margen inferior de 1em */
-    margin-left: 1em; /* Establece un margen izquierdo de 1em */
-    width: 140px; /* Establece un ancho fijo de 140px */
-    border-style: solid; /* Establece un borde sólido */
-    border-color: #f4f4f4; /* Establece el color del borde */
-    background-color: transparent; /* Establece el fondo transparente */
+.plus,
+.kick,
+.kick-gym,
+.Power,
+.basic,
+.Horarioreducido {
+    text-align: center;
+    /* Centra el texto dentro del botón */
+    margin-top: 1em;
+    /* Establece un margen superior de 1em */
+    margin-bottom: 1em;
+    /* Establece un margen inferior de 1em */
+    margin-left: 1em;
+    /* Establece un margen izquierdo de 1em */
+    width: 140px;
+    /* Establece un ancho fijo de 140px */
+    border-style: solid;
+    /* Establece un borde sólido */
+    border-color: #f4f4f4;
+    /* Establece el color del borde */
+    background-color: transparent;
+    /* Establece el fondo transparente */
 }
 
 /* Estilos para el texto dentro de los botones */
-.plus p, .kick p, .kick-gym p, .Power p, .basic p, .Horarioreducido p {
-    font-size: 15px; /* Tamaño de fuente */
-    font-weight: 300; /* Grosor de la fuente */
-    color: #f4f4f4; /* Color del texto */
+.plus p,
+.kick p,
+.kick-gym p,
+.Power p,
+.basic p,
+.Horarioreducido p {
+    font-size: 15px;
+    /* Tamaño de fuente */
+    font-weight: 300;
+    /* Grosor de la fuente */
+    color: #f4f4f4;
+    /* Color del texto */
 }
 
 
 /* Estilos para la clase .precio */
 .precio {
-    margin: 0; /* Elimina el margen exterior */
-    border-left: none; /* Elimina el borde izquierdo */
-    border-bottom: none; /* Elimina el borde inferior */
+    margin: 0;
+    /* Elimina el margen exterior */
+    border-left: none;
+    /* Elimina el borde izquierdo */
+    border-bottom: none;
+    /* Elimina el borde inferior */
 }
 
 /* Estilos para el contenedor .Horarioreducido que contiene párrafos */
 .Horarioreducido p {
-    font-size: 15px; /* Tamaño de fuente */
-    font-weight: 300; /* Grosor de la fuente (300 es ligero) */
-    color: #f4f4f4; /* Color del texto */
+    font-size: 15px;
+    /* Tamaño de fuente */
+    font-weight: 300;
+    /* Grosor de la fuente (300 es ligero) */
+    color: #f4f4f4;
+    /* Color del texto */
 }
 
 /* Estilos para el contenedor .basic que contiene párrafos */
 .basic p {
-    font-size: 15px; /* Tamaño de fuente */
-    font-weight: 300; /* Grosor de la fuente (300 es ligero) */
-    color: #f4f4f4; /* Color del texto */
+    font-size: 15px;
+    /* Tamaño de fuente */
+    font-weight: 300;
+    /* Grosor de la fuente (300 es ligero) */
+    color: #f4f4f4;
+    /* Color del texto */
 }
 
 /* Estilos para el contenedor .plus que contiene párrafos */
 .plus p {
-    font-size: 15px; /* Tamaño de fuente */
-    font-weight: 300; /* Grosor de la fuente (300 es ligero) */
-    color: #f4f4f4; /* Color del texto */
+    font-size: 15px;
+    /* Tamaño de fuente */
+    font-weight: 300;
+    /* Grosor de la fuente (300 es ligero) */
+    color: #f4f4f4;
+    /* Color del texto */
 }
 
 /* Estilos para elementos <span> dentro del documento */
 span {
-    display: block; /* Hace que el elemento <span> sea un bloque */
-    color: #f2e80d; /* Color del texto */
+    display: block;
+    /* Hace que el elemento <span> sea un bloque */
+    color: #f2e80d;
+    /* Color del texto */
 }
 
 /* Estilos para el título .memb-title */
 .memb-title {
-    margin-top: 0; /* Elimina el margen superior */
-    height: 100%; /* Altura del elemento */
-    width: 100%; /* Ancho del elemento */
-    background-color: #000a; /* Color de fondo */
-    text-align: center; /* Alineación del texto */
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Altura del elemento */
+    width: 100%;
+    /* Ancho del elemento */
+    background-color: #000a;
+    /* Color de fondo */
+    text-align: center;
+    /* Alineación del texto */
 }
 
 
 /* Estilos para el título .grup-title */
 .grup-title {
-    margin-top: 0; /* Elimina el margen superior */
-    height: 100%; /* Altura del elemento */
-    width: 100%; /* Ancho del elemento */
-    background-color: #000a; /* Color de fondo */
-    text-align: center; /* Alineación del texto */
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Altura del elemento */
+    width: 100%;
+    /* Ancho del elemento */
+    background-color: #000a;
+    /* Color de fondo */
+    text-align: center;
+    /* Alineación del texto */
 }
 
 /* Estilos para el título <h3> dentro de .memb-title */
 .memb-title h3 {
-    color: #f2e80d; /* Color del texto */
-    font-size: 30px; /* Tamaño de fuente */
+    color: #f2e80d;
+    /* Color del texto */
+    font-size: 30px;
+    /* Tamaño de fuente */
 }
 
 /* Estilos para el título <h3> dentro de .gruop-title  */
 .gruop-title {
-    color: #f2e80d; /* Color del texto */
-    font-size: 30px; /* Tamaño de fuente */
+    color: #f2e80d;
+    /* Color del texto */
+    font-size: 30px;
+    /* Tamaño de fuente */
 }
 
 
@@ -1075,94 +1141,133 @@ span {
 .preguntas_container {
     /* Define la imagen de fondo para el contenedor de preguntas */
     background-image: url(https://img.freepik.com/foto-gratis/grupo-personas-sentadas-piso-mirando-telefono-inteligente-gimnasio_23-2147949632.jpg?t=st=1718844932~exp=1718848532~hmac=1b4e54debd223c1b3432c59be872a243830cd107befced09ad425ea38dabad38&w=1380);
-    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    background-size: cover;
+    /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 
- 
+
 
 
 /* Estilo para cada pregunta */
 .Preguntas details {
-    margin-bottom: 10px; /* Espacio entre cada pregunta */
-    
-    border-radius: 5px; /* Bordes redondeados */
-    overflow: hidden; /* Evitar que el contenido se desborde */
-    background-color: transparent; /* Pone el color de fondo a la respuesta de la pregunta*/
-    font-size: 18px ;/*Asigna el tamaño de fuente a 18 respecto a la respuesta*/
+    margin-bottom: 10px;
+    /* Espacio entre cada pregunta */
+
+    border-radius: 5px;
+    /* Bordes redondeados */
+    overflow: hidden;
+    /* Evitar que el contenido se desborde */
+    background-color: transparent;
+    /* Pone el color de fondo a la respuesta de la pregunta*/
+    font-size: 18px;
+    /*Asigna el tamaño de fuente a 18 respecto a la respuesta*/
     font-weight: 100;
     color: #cfc4c4;
-    
-    
-    
+
+
+
 }
 
 /* Estilo para el resumen de cada pregunta */
 .Preguntas summary {
-    padding: 10px; /* Espaciado interno del resumen */
-    font-weight: bold; /* Negrita para el título de la pregunta */
-    background-color: transparent; /* Color de fondo del resumen */
-    cursor: pointer; /* Cambiar el cursor a mano */
-    font-size: 23px; /*Asigna el tamaño de fuente a 23 respecto a la pregunta*/
+    padding: 10px;
+    /* Espaciado interno del resumen */
+    font-weight: bold;
+    /* Negrita para el título de la pregunta */
+    background-color: transparent;
+    /* Color de fondo del resumen */
+    cursor: pointer;
+    /* Cambiar el cursor a mano */
+    font-size: 23px;
+    /*Asigna el tamaño de fuente a 23 respecto a la pregunta*/
     color: #999da0;
-    
+
 }
 
 /* Estilo para detalles abiertos dentro de la sección de preguntas */
 .Preguntas details[open] {
 
-    
+
     /* Texto en negrita */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
- .preg-title {
-    margin-top: 0; /* Elimina el margen superior */
-    height: 100%; /* Altura del elemento */
-    width: 100%; /* Ancho del elemento */
-    background-color: #000a; /* Color de fondo */
-    text-align: center; /* Alineación del texto */
+.preg-title {
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Altura del elemento */
+    width: 100%;
+    /* Ancho del elemento */
+    background-color: #000a;
+    /* Color de fondo */
+    text-align: center;
+    /* Alineación del texto */
     display: flex;
     justify-content: center;
-    align-items: center; /* Centra verticalmente */
+    align-items: center;
+    /* Centra verticalmente */
 }
 
 
 /* Estilos para el título <h3> dentro de .preg-title */
- .preg-title h3 {
-    color: #f2e80d; /* Color del texto */
-    font-size: 30px; /* Tamaño de fuente */
+.preg-title h3 {
+    color: #f2e80d;
+    /* Color del texto */
+    font-size: 30px;
+    /* Tamaño de fuente */
     font-family: montserrat;
 }
 
- .pregunta {
-    margin-top: 0; /* Elimina el margen superior */
-    height: 100%; /* Establece la altura al 100% del contenedor padre */
-    width: 100%; /* Establece el ancho al 100% del contenedor padre */
-    background-color: rgba(0, 0, 0, 0.788); /* Establece un color de fondo semi-transparente */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    justify-content: center; /* Centra horizontalmente los elementos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
-   
+.pregunta {
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Establece la altura al 100% del contenedor padre */
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor padre */
+    background-color: rgba(0, 0, 0, 0.788);
+    /* Establece un color de fondo semi-transparente */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    justify-content: center;
+    /* Centra horizontalmente los elementos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
+
 }
 
 
 /* Estilos para las clases preguntas */
 
 .preguntas {
-   /* Márgenes alrededor de cada elemento */
-   margin-top: 1em; /* Margen superior de 1 em */
-   margin-bottom: 1em; /* Margen inferior de 1 em */
-   margin-left: 1em; /* Margen izquierdo de 1 em */
-   width: 400px; /* Ancho fijo de 400 píxeles */
-   border-style: solid; /* Estilo del borde sólido */
-   border-color: #f4f4f4; /* Color del borde gris claro */
-   background-color: transparent; /* Fondo transparente */
-   display: flex; /* Utiliza un diseño flexible para los elementos internos */
-   flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    /* Márgenes alrededor de cada elemento */
+    margin-top: 1em;
+    /* Margen superior de 1 em */
+    margin-bottom: 1em;
+    /* Margen inferior de 1 em */
+    margin-left: 1em;
+    /* Margen izquierdo de 1 em */
+    width: 400px;
+    /* Ancho fijo de 400 píxeles */
+    border-style: solid;
+    /* Estilo del borde sólido */
+    border-color: #f4f4f4;
+    /* Color del borde gris claro */
+    background-color: transparent;
+    /* Fondo transparente */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
 }
 
 
@@ -1170,24 +1275,33 @@ span {
 /* Para pantallas muy pequeñas (menos de 480px) */
 
 @media (max-width: 1115px) {
-   .preguntas {
-        width: 50%; /* Ancho relativo del 100% del contenedor padre */
+    .preguntas {
+        width: 50%;
+        /* Ancho relativo del 100% del contenedor padre */
     }
 
-aside{
-    display: none;
-}
+    aside {
+        display: none;
+    }
 
-/* Estilos para los párrafos dentro de las clases .preguntas*/
-.preguntas p
- {
-    font-size: 15px; /* Tamaño de fuente de 15 píxeles */
-    font-weight: 300; /* Peso de la fuente normal (300) */
-    color: #f4f4f4; /* Color del texto gris claro */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
-    
-}
+    /* Estilos para los párrafos dentro de las clases .preguntas*/
+    .preguntas p {
+        font-size: 15px;
+        /* Tamaño de fuente de 15 píxeles */
+        font-weight: 300;
+        /* Peso de la fuente normal (300) */
+        color: #f4f4f4;
+        /* Color del texto gris claro */
+        display: flex;
+        /* Utiliza un diseño flexible para los elementos internos */
+        flex-wrap: wrap;
+        /* Permite que los elementos se envuelvan en múltiples líneas */
+
+    }
+
+    .blog-container {
+        margin-left: 50px;
+    }
 }
 
 
@@ -1196,36 +1310,43 @@ aside{
 .MisionVision-container {
     /* Define la imagen de fondo para el contenedor de actividades grupales */
     background-image: url(https://img.freepik.com/foto-gratis/par-jovenes-boxeadores-tiene-competencia-ring-estudio-lucha_613910-6004.jpg?t=st=1718338654~exp=1718342254~hmac=b941789779e0c343f505e935509f34886554e41eb33b3b18a5dfad3b8aba0d1f&w=740);
-    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
-    display: flex; /* Utiliza un diseño flexible para los elementos internos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    background-size: cover;
+    /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    display: flex;
+    /* Utiliza un diseño flexible para los elementos internos */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en múltiples líneas */
 }
-.misionvision-content{
+
+.misionvision-content {
     display: block;
     text-align: center;
 }
-.misionvision-content h2{
+
+.misionvision-content h2 {
     margin: 30px;
-  font-weight: 400;
-  font-size: 3em;
-  color: #f2e80d;
-  text-shadow: 0 0 100px #f2e80d;
-  
+    font-weight: 400;
+    font-size: 3em;
+    color: #f2e80d;
+    text-shadow: 0 0 100px #f2e80d;
+
 }
-.misionvision-content p{
-   font-weight: 100;
+
+.misionvision-content p {
+    font-weight: 100;
 }
- 
-.entrenadores-container{
+
+.entrenadores-container {
     display: flex;
     /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
     flex-wrap: wrap;
     /* Centra los elementos dentro de la sección de servicios */
     justify-content: center;
 }
+
 #entrenadores-title {
     /* Utiliza la fuente 'Anton' para el elemento con id 'te-ofrecemos' */
-    
+
     /* Define el color del texto */
     color: #f2e80d;
     /* Define el color de fondo */
@@ -1242,121 +1363,243 @@ aside{
     margin-top: 0;
     margin-bottom: 0;
 }
-.box{
-     /* Define el ancho de las cajas como 300px */
-     width: 300px;
-     /* Añade un margen de 10px alrededor de las cajas */
-     margin: 10px;
-     /* Añade un relleno de 20px dentro de las cajas */
-     padding: 20px;
-     /* Redondea las esquinas de las cajas */
-     border-radius: 10px;
-     /* Define el color del texto dentro de las cajas */
-     color: #000;
-     /* Centra el texto dentro de las cajas */
-     text-align: center;
-     /* Asegura que el relleno y el borde se incluyan en el tamaño total de las cajas */
-     box-sizing: border-box;
+
+.box {
+    /* Define el ancho de las cajas como 300px */
+    width: 300px;
+    /* Añade un margen de 10px alrededor de las cajas */
+    margin: 10px;
+    /* Añade un relleno de 20px dentro de las cajas */
+    padding: 20px;
+    /* Redondea las esquinas de las cajas */
+    border-radius: 10px;
+    /* Define el color del texto dentro de las cajas */
+    color: #000;
+    /* Centra el texto dentro de las cajas */
+    text-align: center;
+    /* Asegura que el relleno y el borde se incluyan en el tamaño total de las cajas */
+    box-sizing: border-box;
 }
-.box img{
-     /* Define el ancho de las imágenes dentro de las cajas como 150px */
-     width: 250px;
-     /* Define la altura de las imágenes dentro de las cajas como 150px */
-     height: 250px;
-     /* Redondea las esquinas de las imágenes para hacerlas circulares */
-     
+
+.box img {
+    /* Define el ancho de las imágenes dentro de las cajas como 150px */
+    width: 250px;
+    /* Define la altura de las imágenes dentro de las cajas como 150px */
+    height: 250px;
+    /* Redondea las esquinas de las imágenes para hacerlas circulares */
+
 }
-.box p{
-     /* Define el tamaño de la fuente del texto dentro de las cajas */
-     font-size: 14px;
-     /* Define el color del texto dentro de las cajas */
-     color: #000;
+
+.box p {
+    /* Define el tamaño de la fuente del texto dentro de las cajas */
+    font-size: 14px;
+    /* Define el color del texto dentro de las cajas */
+    color: #000;
 }
-.Gabriel{
+
+.Gabriel {
     /* Define el color de fondo de las cajas 'Entrenadores' */
     background-color: #999da0;
     /* Añade una sombra a las cajas 'Entrenadores' */
     box-shadow: 0 0 15px 0 #f2e80d;
 }
-.Chino{
+
+.Chino {
 
     background-color: #999da0;
     /* Añade una sombra a las cajas 'Entrenadores' */
     box-shadow: 0 0 15px 0 #f2e80d;
 }
-.manu{
+
+.manu {
     background-color: #999da0;
     /* Añade una sombra a las cajas 'Entrenadores' */
     box-shadow: 0 0 15px 0 #f2e80d;
 }
 
-
-
-
-aside{
-float: right;
-width: 500px;
-justify-content: center;
-text-align: center;
-margin-top: 10px;
-box-shadow: 0 0 4px #f2e80e;
-margin-right: 1em;
-color: #cfc4c4;
-font-family: montserrat;
-font-weight: 500;
-font-size: 20px;
-background-image:url(https://img.freepik.com/foto-gratis/persona-atletica-haciendo-ejercicio-entrenando_23-2150989827.jpg?t=st=1718941061~exp=1718944661~hmac=3b53fa21e44bb6792e3bdfbafcc559a68e2ec3bfa87e147b27cce61cb65c18f2&w=740) ;
-background-size: cover;
-position: fixed;
-right: 1px;
-top: 230px;
+aside {
+    float: right;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 0 4px #f2e80e;
+    margin-right: 1em;
+    color: #cfc4c4;
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    background-image: url(https://img.freepik.com/foto-gratis/persona-atletica-haciendo-ejercicio-entrenando_23-2150989827.jpg?t=st=1718941061~exp=1718944661~hmac=3b53fa21e44bb6792e3bdfbafcc559a68e2ec3bfa87e147b27cce61cb65c18f2&w=740);
+    background-size: cover;
+    position: fixed;
+    right: 1px;
+    top: 230px;
+    width: 27%;
 }
 
-.opaco{
-        margin-top: 0; /* Elimina el margen superior */
-        height: 100%; /* Establece la altura al 100% del contenedor padre */
-        width: 100%; /* Establece el ancho al 100% del contenedor padre */
-        background-color: #000000c9; /* Establece un color de fondo semi-transparente */
+.opaco {
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Establece la altura al 100% del contenedor padre */
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor padre */
+    background-color: #000000c9;
+    /* Establece un color de fondo semi-transparente */
 }
-.aside{
+
+.opacoN {
+    display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    text-align: center;
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Establece la altura al 100% del contenedor padre */
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor padre */
+    background-color: #000000c9;
+    /* Establece un color de fondo semi-transparente */
+}
+.opacoA{
+    display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    text-align: center;
+    margin-top: 0;
+    /* Elimina el margen superior */
+    height: 100%;
+    /* Establece la altura al 100% del contenedor padre */
+    width: 100%;
+    /* Establece el ancho al 100% del contenedor padre */
+    background-color: #000000c9;
+    /* Establece un color de fondo semi-transparente */
+}
+.aside {
     padding: 10px;
-   
 }
-.naranja{
+
+.naranja {
     width: 200px;
 }
-.blogs{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
 
+.naranjaN {
+    width: 50%;
+}
+
+.blogs {
+    display: flex;
+    gap: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+aside a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: smaller;
 
 }
-h4{
+
+a:hover {
+    color: #f2e80d;
+}
+
+h4 {
     font-family: Anton;
     font-weight: 100;
-    color:#999da0;
+    color: #999da0;
     font-size: 25px;
 }
-.blog-container{
+
+.blog-container {
     box-shadow: 0 0 10px #f2e80e;
     text-align: center;
     margin-top: 10px;
     color: #f4f4f4;
-margin-left: 10px;
-border-radius: 4px;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 70%;
+    background-image: url(https://img.freepik.com/fotos-premium/kettlebell-naranja-elegante-contra-fondo-oscuro-gimnasio-esenciales-entrenamiento-fuerza_500824-8.jpg?w=360);
+}
 
-background-image: url(https://img.freepik.com/fotos-premium/kettlebell-naranja-elegante-contra-fondo-oscuro-gimnasio-esenciales-entrenamiento-fuerza_500824-8.jpg?w=360);
+@media only screen and (max-width: 600px) {
+
+    .blog-containerN,
+    .blog-naranjaa , .blog-containerA{
+        margin-left: 50px;
+    }
+p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2em;
 }
-.blog-container img{
+    /* Estilos para celulares */
+    .blog-container {
+        margin-left: 50px;
+    }
+}
+
+.blog-container img {
     margin-top: 10px;
-    box-shadow:0 0 10px #f2e80e;
+    box-shadow: 0 0 10px #f2e80e;
 }
-.blog-container p{
-   font-weight: 400; 
-   font-size: small;
+
+.blog-containerN img {
+    margin-top: 10px;
+    box-shadow: 0 0 10px #f2e80e;
 }
-.blog-content{
+.blog-containerA img{
+    margin-top: 10px;
+    box-shadow: 0 0 10px #f2e80e;
+}
+.blog-containerN p {
+    font-weight: 500;
+    font-size: 15px;
+}
+.blog-containerA p{
+    font-weight: 500;
+    font-size: 15px;
+}
+.blog-container p {
+    font-weight: 400;
+    font-size: small;
+}
+
+.blog-content {
     padding: 10px;
     padding-bottom: 5px;
+}
+
+.blog-containerN {
+
+    box-shadow: 0 0 10px #f2e80e;
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f4f4;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 70%;
+    background-image: url(https://img.freepik.com/fotos-premium/kettlebell-naranja-elegante-contra-fondo-oscuro-gimnasio-esenciales-entrenamiento-fuerza_500824-8.jpg?w=360);
+}
+.blog-containerA{
+    box-shadow: 0 0 10px #f2e80e;
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f4f4;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 70%;
+    background-image: url(https://img.freepik.com/fotos-premium/kettlebell-naranja-elegante-contra-fondo-oscuro-gimnasio-esenciales-entrenamiento-fuerza_500824-8.jpg?w=360);
 }
