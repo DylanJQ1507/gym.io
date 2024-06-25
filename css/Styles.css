@@ -1664,3 +1664,120 @@ p{
     font-size: 15px;
 }
 
+
+
+
+
+
+.entrenadores-container {
+    display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
+    flex-wrap: wrap;
+    /* Centra los elementos dentro de la sección de servicios */
+    justify-content: center;
+}
+
+#testimonios-title {
+    /* Utiliza la fuente 'Anton' para el elemento con id 'te-ofrecemos' */
+
+    /* Define el color del texto */
+    color: #f2e80d;
+    /* Define el color de fondo */
+    background-color: #010101;
+    /* Define el peso de la fuente */
+    font-weight: 300;
+    /* Añade una sombra al elemento */
+    box-shadow: 0 0 15px 0 #f2e80d;
+    /* Elimina el margen izquierdo */
+    margin-left: 0;
+    /* Elimina el margen derecho */
+    margin-right: 0;
+    /* Elimina el margen superior */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.box {
+    /* Define el ancho de las cajas como 300px */
+    width: 300px;
+    /* Añade un margen de 10px alrededor de las cajas */
+    margin: 10px;
+    /* Añade un relleno de 20px dentro de las cajas */
+    padding: 20px;
+    /* Redondea las esquinas de las cajas */
+    border-radius: 10px;
+    /* Define el color del texto dentro de las cajas */
+    color: #000;
+    /* Centra el texto dentro de las cajas */
+    text-align: center;
+    /* Asegura que el relleno y el borde se incluyan en el tamaño total de las cajas */
+    box-sizing: border-box;
+}
+
+.box img {
+    /* Define el ancho de las imágenes dentro de las cajas como 150px */
+    width: 250px;
+    /* Define la altura de las imágenes dentro de las cajas como 150px */
+    height: 250px;
+    /* Redondea las esquinas de las imágenes para hacerlas circulares */
+    border-radius: 150px;
+
+}
+
+.box p {
+    /* Define el tamaño de la fuente del texto dentro de las cajas */
+    font-size: 14px;
+    /* Define el color del texto dentro de las cajas */
+    color: #000;
+}
+
+.cesar {
+    /* Define el color de fondo de las cajas 'Entrenadores' */
+    background-color: #999da0;
+    /* Añade una sombra a las cajas 'Entrenadores' */
+    box-shadow: 0 0 15px 0 #f2e80d;
+}
+
+.dixon {
+
+    background-color: #999da0;
+    /* Añade una sombra a las cajas 'Entrenadores' */
+    box-shadow: 0 0 15px 0 #f2e80d;
+}
+
+.brandonSM {
+    background-color: #999da0;
+    /* Añade una sombra a las cajas 'Entrenadores' */
+    box-shadow: 0 0 15px 0 #f2e80d;
+}
+
+.fabian {
+
+    background-color: #999da0;
+    /* Añade una sombra a las cajas 'Entrenadores' */
+    box-shadow: 0 0 15px 0 #f2e80d;
+}
+
+.sebastian {
+    background-color: #999da0;
+    /* Añade una sombra a las cajas 'Entrenadores' */
+    box-shadow: 0 0 15px 0 #f2e80d;
+}
+
+
+.Testimonios {
+    /* Define el color de fondo de las cajas 'Entrenadores' */
+    background-color: #f2e80e;
+    /* Añade una sombra a las cajas 'Entrenadores' */
+    box-shadow: 0 0 15px 0 #010101;
+}
+
+
+
+.testimonios-container {
+    display: flex;
+    /* Permite que los elementos dentro se envuelvan en múltiples líneas si es necesario */
+    flex-wrap: wrap;
+    /* Centra los elementos dentro de la sección de servicios */
+    justify-content: center;
+}
