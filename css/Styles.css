@@ -1664,6 +1664,10 @@ p{
     font-size: 15px;
 }
 
+.blog-container a{
+    text-decoration: none;
+    color: #999da0;
+}
 
 
 
