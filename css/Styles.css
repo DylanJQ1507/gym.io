@@ -1537,7 +1537,7 @@ h4 {
 @media only screen and (max-width: 600px) {
 
     .blog-containerN,
-    .blog-naranjaa , .blog-containerA{
+    .blog-naranjaa , .blog-containerA {
         margin-left: 50px;
     }
 p{
@@ -1549,7 +1549,19 @@ p{
     .blog-container {
         margin-left: 50px;
     }
+
+   
 }
+@media (min-width: 1920px) {
+    .inicio-content p {
+        font-size: 30px;
+    }
+
+    .inicio-content h2 {
+        font-size: 30px;
+    }
+}
+
 
 .blog-container img {
     margin-top: 10px;
