@@ -1785,3 +1785,39 @@ p{
     /* Centra los elementos dentro de la sección de servicios */
     justify-content: center;
 }
+
+
+
+.Informacion {
+    background-color: #1E1E1E;
+    border: 2px solid #f2e80d;
+    padding: 30px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 0 15px 0 #010101;
+    
+}
+
+.Informacion h2 {
+    color: #f2e80d;
+    
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.Informacion p {
+    color: #EEEEEE;
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.informacion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
